@@ -88,3 +88,15 @@ main {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.modal-open {
+    overflow: hidden;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+input[type="search"]::-moz-placeholder {
+    color: #FFF;
+}
