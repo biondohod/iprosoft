@@ -123,10 +123,38 @@ input[type="search"]::-moz-placeholder {
     }
 
     &__arrow {
-        width: 712px;
-        height: 10px;
-        margin-right: 27px;
-        background: url('../assets/img/arrow-grey.svg') no-repeat bottom;
+        position: relative;
+        z-index: 2;
+        flex-shrink: 0;
+        flex-grow: 1;
+        width: 700px;
+        height: 1px;
+        margin-right: 24px;
+        background-color: #AFAFAF;
+
+        &::before {
+            position: absolute;
+            top: 0px;
+            right: 0;
+            transform: rotate(45deg);
+            width: 1px;
+            height: 4px;
+            border-radius: 10px;
+            background-color: #AFAFAF;
+            content: "";
+        }
+
+        &::after {
+            position: absolute;
+            bottom: 0px;
+            right: 0;
+            transform: rotate(-45deg);
+            width: 1px;
+            height: 4px;
+            border-radius: 10px;
+            background-color: #AFAFAF;
+            content: "";
+        }
     }
 
     &__link {

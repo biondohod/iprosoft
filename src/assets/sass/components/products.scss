@@ -1,0 +1,41 @@
+.products {
+    margin-bottom: 120px;
+
+    &__list {
+        display: grid;
+        grid-template-columns: 428px 428px 428px;
+        gap: 48px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
+
+        &:nth-child(2n) {
+            .products__text {
+                background-color: #EA5B21;
+            }
+        }
+
+        &:nth-child(2n - 1) {
+            .products__text {
+                background-color: #1D4687;
+            }
+        }
+    }
+
+    &__text {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        padding: 0 24px;
+        color: #FFFFFF;
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
