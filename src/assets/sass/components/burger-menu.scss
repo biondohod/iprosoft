@@ -1,11 +1,11 @@
 .burger-menu {
     display: none;
     position: absolute;
-    z-index: 10;
+    z-index: 100;
     top: 0;
     left: 0;
     right: 0;
-    height: 100vh;
+    min-height: 100vh;
     padding: 18px 25px;
     background-color: rgba(33, 74, 137, .97);
 
