@@ -1,0 +1,60 @@
+.tabs {
+    margin-bottom: 120px;
+
+    &__header {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 52.5px;
+    }
+
+    &__name {
+        position: relative;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #9D9D9D;
+        transition: color 0.4s;
+        cursor: pointer;
+
+        &:hover {
+            font-weight: 400;
+            color: #000000;
+
+            &::after {
+                opacity: 1;
+            }
+        }
+
+        &::after {
+            position: absolute;
+            bottom: -11px;
+            left: 0;
+            width: 100px;
+            height: 6px;
+            background-color: #EA5B21;
+            opacity: 0;
+            transition: opacity 0.4s;
+            content: "";
+        }
+
+        &--active {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+            cursor: default;
+
+            &::after {
+                opacity: 1;
+            }
+
+            &:hover {
+                font-weight: 700;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-right: 60px;
+        }
+    }
+}

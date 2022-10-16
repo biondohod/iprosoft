@@ -45,11 +45,12 @@
     &__list {
         display: grid;
         row-gap: 576px;
+        padding-left: 86px;
     }
 
     &__row {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
 }
 
