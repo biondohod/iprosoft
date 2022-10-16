@@ -1,0 +1,7 @@
+.clients {
+    margin-bottom: 580px;
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(5, 276px);
+    }
+}
