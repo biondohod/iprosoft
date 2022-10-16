@@ -1,17 +1,17 @@
-.right-banner {
+.left-banner {
     position: absolute;
-    right: 0;
+    left: 0;
     display: flex;
     align-items: center;
     width: 1462px;
     height: 180px;
     background-color: #EA5B21;
-    padding: 48px 260px;
-    padding-left: 298px;
+    padding: 48px 331px;
+    padding-right: 464px;
 
     &__title {
+        flex-grow: 0;
         display: inline-block;
-        max-width: 521px;
         margin-right: auto;
         font-weight: 700;
         font-size: 32px;
@@ -21,32 +21,36 @@
 
     &__decorative {
         position: absolute;
-        &--a4 {
-            top: -85px;
-            left: -63px;
-            width: 350px;
+        &--tablet {
+            top: -95px;
+            right: -31px;
+            width: 455px;
             height: 350px;
-            background: url('../assets/img/right-banner-a4.webp') no-repeat center;
+            background: url('../assets/img/left-banner-tablet.webp') no-repeat center;
         }
     }
 
     &::before {
         position: absolute;
-        left: -106px;
+        right: -106px;
         bottom: 0;
         width: 0px;
         height: 0px;
-        border-bottom: 180px solid #EA5B21;
-        border-left: 106px solid transparent;
+        border-top: 180px solid #EA5B21;
+        border-right: 106px solid transparent;
         content: "";
+    }
+
+    .white2blue-btn {
+        width: 190px;
     }
 
 
     &--1 {
-        top: 2905px;
+        top: 4845px;
 
-        .white2blue-btn {
-            width: 238px;
+        .left-banner__title {
+            max-width: 375px;
         }
     }
 }
