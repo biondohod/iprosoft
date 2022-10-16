@@ -1,0 +1,52 @@
+.right-banner {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 1462px;
+    height: 180px;
+    background-color: #EA5B21;
+    padding: 48px 0;
+    padding-left: 298px;
+
+    &__title {
+        display: inline-block;
+        max-width: 521px;
+        margin-right: 145px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    &__decorative {
+        position: absolute;
+        &--a4 {
+            top: -85px;
+            left: -63px;
+            width: 350px;
+            height: 350px;
+            background: url('../assets/img/right-banner-a4.webp') no-repeat center;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        left: -106px;
+        bottom: 0;
+        width: 0px;
+        height: 0px;
+        border-bottom: 180px solid #EA5B21;
+        border-left: 106px solid transparent;
+        content: "";
+    }
+
+
+    &--1 {
+        top: 2905px;
+
+        .white2blue-btn {
+            width: 238px;
+        }
+    }
+}

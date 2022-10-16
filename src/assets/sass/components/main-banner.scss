@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     margin-bottom: 120px;
 
     &__title {
@@ -61,7 +61,7 @@
             }
 
             &:hover {
-                .banner__decorative--first {
+                .main-banner__decorative--first {
                     top: -9.5px;
                     right: -91.5px;
                     width: 457px;
@@ -83,7 +83,7 @@
             }
 
             &:hover {
-                .banner__decorative--second {
+                .main-banner__decorative--second {
                     top: -20px;
                     right: -78px;
                     width: 495px;
@@ -107,7 +107,7 @@
             }
 
             &:hover {
-                .banner__decorative--third {
+                .main-banner__decorative--third {
                     top: 15px;
                     right: 37px;
                     width: 340px;
