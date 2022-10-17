@@ -1,5 +1,9 @@
 @import './global/global.scss';
 
+@import './global/btns.scss';
+@import './global/decorative.scss';
+
+//Главная страница
 @import './components/header.scss';
 @import './components/burger-menu.scss';
 @import './components/subheader.scss';
@@ -9,8 +13,13 @@
 @import './components/products.scss';
 @import './components/clients.scss';
 @import './components/left-banner.scss';
-@import './components/reviews.scss';
 @import './components/tabs.scss';
 @import './components/slider.scss';
 @import './components/news.scss';
 @import './components/footer.scss';
+
+//Остальные страницы
+@import './components/bredcrumbs.scss';
+
+//Отзывы
+@import './components/reviews.scss';

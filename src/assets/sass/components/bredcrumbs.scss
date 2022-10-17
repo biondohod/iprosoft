@@ -1,0 +1,38 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+    &__item {
+        position: relative;
+
+        &:not(:last-child) {
+            margin-right: 26px;
+        }
+
+        &:not(:first-child) {
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: -18px;
+                width: 11px;
+                height: 4px;
+                transform: translateY(-50%);
+                background: url('../assets/img/breadcrumbs-arrow.svg') no-repeat;
+                content: "";
+            }
+        }
+    }
+
+    &__link {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        text-decoration: none;
+
+        &--active {
+            font-weight: 600;
+        }
+    }
+}

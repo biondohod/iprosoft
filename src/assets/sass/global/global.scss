@@ -168,111 +168,11 @@ input[type="search"]::-moz-placeholder {
     }
 }
 
-
-.white2blue-btn,
-.white2orange-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 12px;
-    background-color: transparent;
-    border: 2px solid #FFFFFF;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    text-decoration: none;
-    transition: border-color 0.4s, background-color 0.4s;
-    cursor: pointer;
-}
-
-.white2blue-btn {
-    &:hover {
-        background-color: #1D4687;
-        border-color: #1D4687;
-    }
-}
-
-.white2orange-btn {
-    padding: 9px 12px;
-    &:hover {
-        background-color: #EA5B21;
-        border-color: #EA5B21;
-    }
-}
-
 .quality {
     margin-bottom: 120px;
 }
 
-.decorative {
-    &__right {
-        position: absolute;
-        z-index: -10;
-        width: 617px;
-        height: 680px;
-        overflow: hidden;
-
-        &::before {
-            position: absolute;
-            width: 617px;
-            bottom: 0;
-            content: "";
-        }
-
-        &--top {
-            bottom: 7251px;
-            right: 0;
-
-            &::before {
-                height: 1591px;
-                background: url('../assets/img/decorative-right.webp') left bottom;
-            }
-        }
-
-        &--middle {
-            bottom: 3815px;
-            right: 0;
-            height: 1038px;
-
-            &::before {
-                height: 1038px;
-                background: url('../assets/img/decorative-right.webp') left bottom;
-            }
-        }
-    }
-
-    &__left {
-        position: absolute;
-        z-index: -10;
-        width: 777px;
-        overflow: hidden;
-
-        &::before {
-            position: absolute;
-            width: 777px;
-            height: 1307px;
-            bottom: 0;
-            background: url('../assets/img/decorative-left.webp') right top;
-            content: "";
-        }
-
-        &--middle {
-            bottom: 4627px;
-            height: 1423px;
-
-            &::before {
-                height: 1307px;
-            }
-        }
-
-        &--bottom {
-            bottom: 1230px;
-            height: 1423px;
-
-            &::before {
-                height: 1423px;
-            }
-        }
-    }
+.reviews-block {
+    margin-bottom: 120px;
 }
+

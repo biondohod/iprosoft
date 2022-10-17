@@ -19,10 +19,14 @@
         color: #FFFFFF;
     }
 
+    .white2blue-btn {
+        width: 190px;
+    }
+
     &__decorative {
         position: absolute;
+        top: -85px;
         &--a4 {
-            top: -85px;
             left: -63px;
             width: 350px;
             height: 350px;
@@ -30,11 +34,17 @@
         }
 
         &--envelope {
-            top: -85px;
             left: -57px;
             width: 354px;
             height: 350px;
             background: url('../assets/img/right-banner-envelope.webp') no-repeat;
+        }
+
+        &--speaker {
+            width: 354px;
+            height: 350px;
+            left: -57px;
+            background: url('../assets/img/right-banner-speaker.webp') no-repeat;
         }
     }
 
@@ -50,7 +60,7 @@
     }
 
 
-    &--1 {
+    &--help {
         bottom: 5755px;
 
         .white2blue-btn {
@@ -58,11 +68,11 @@
         }
     }
 
-    &--2 {
+    &--mailing {
         top: 85px;
+    }
 
-        .white2blue-btn {
-            width: 190px;
-        }
+    &--reviews {
+        top: 1890px;
     }
 }

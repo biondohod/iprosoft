@@ -1,0 +1,92 @@
+.decorative {
+    &__right {
+        position: absolute;
+        right: 0;
+        z-index: -10;
+        width: 617px;
+        height: 680px;
+        overflow: hidden;
+
+        &::before {
+            position: absolute;
+            bottom: 0;
+            width: 617px;
+            content: "";
+        }
+
+        &--top {
+            bottom: 7251px;
+
+            &::before {
+                height: 1591px;
+                background: url('../assets/img/decorative-right.webp') left bottom;
+            }
+        }
+
+        &--middle {
+            bottom: 3815px;
+            height: 1038px;
+
+            &::before {
+                height: 1038px;
+                background: url('../assets/img/decorative-right.webp') left bottom;
+            }
+        }
+
+        &--reviews {
+            top: 700px;
+            height: 1190px;
+            width: 777px;
+
+            &::before {
+                height: 1190px;
+                width: 777px;
+                background: url('../assets/img/decorative-right-2.webp') left bottom;
+            }
+        }
+    }
+
+    &__left {
+        position: absolute;
+        z-index: -10;
+        width: 777px;
+        overflow: hidden;
+
+        &::before {
+            position: absolute;
+            width: 777px;
+            height: 1307px;
+            bottom: 0;
+            background: url('../assets/img/decorative-left.webp') right top;
+            content: "";
+        }
+
+        &--middle {
+            bottom: 4627px;
+            height: 1307px;
+
+            &::before {
+                height: 1307px;
+            }
+        }
+
+        &--bottom {
+            bottom: 1230px;
+            height: 1423px;
+
+            &::before {
+                height: 1423px;
+            }
+        }
+
+        &--reviews {
+            top: 700px;
+            height: 1307px;
+
+            &::before {
+                height: 1307px;
+            }
+        }
+    }
+}
+

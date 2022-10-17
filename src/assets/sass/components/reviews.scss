@@ -1,3 +1,32 @@
 .reviews {
-    margin-bottom: 120px;
+    &__title {
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    &__item {
+        height: 437px;
+        filter: drop-shadow(0px 16px 26px rgba(0, 0, 0, 0.07));
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(4, 309px);
+        gap: 48px;
+
+        &--static {
+            margin-bottom: 590px;
+        }
+
+        &--dynamic {
+            margin-bottom: 60px;
+        }
+
+        & + .blue2orange-btn {
+            margin: 0 auto;
+        }
+    }
 }

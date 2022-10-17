@@ -1,5 +1,22 @@
 .subheader {
     &--main {
         margin-bottom: 120px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__content {
+        max-width: 1480px;
+        padding: 24px 50px;
+        margin: 0 auto;
+    }
+
+    &--reviews {
+        margin-top: 72px;
+        margin-bottom: -529px;
+        min-height: 628px;
+        background: #1D4687 url('../assets/img/reviews-bg.webp') no-repeat right;
     }
 }
