@@ -1,0 +1,108 @@
+.footer {
+    position: relative;
+    padding-top: 470px;
+
+    &__content {
+        max-width: 1480px;
+        margin: 0 auto;
+        padding: 0 50px;
+        padding-bottom: 48px;
+    }
+
+    &__logo {
+        display: inline-block;
+        margin-bottom: 158px;
+    }
+
+    &__wrapper {
+        display: flex;
+        margin-bottom: 171px;
+    }
+
+    &__contacts {
+        display: grid;
+        gap: 48px;
+        margin-right: 268px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__address {
+        padding-left: 48px;
+        background: url('../assets/img/pin.svg') no-repeat left top;
+    }
+
+    &__phone {
+        display: flex;
+        flex-direction: column;
+        padding-left: 48px;
+        background: url('../assets/img/phone.svg') no-repeat left top;
+
+        a {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+
+    &__mail {
+        padding-left: 48px;
+        background: url('../assets/img/mail.svg') no-repeat center left;
+
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+
+    &__social {
+        display: grid;
+        gap: 24px;
+
+        &--vk,
+        &--tg {
+            padding-left: 48px;
+            color: #000000;
+            text-decoration: none;
+        }
+
+        &--vk {
+            background: url('../assets/img/vk-footer.svg') no-repeat center left;
+        }
+
+        &--tg {
+            background: url('../assets/img/tg-footer.svg') no-repeat center left;
+        }
+    }
+
+    &__navigation {
+        display: grid;
+        gap: 37px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+
+        &__item {
+            a {
+                color:  #000000;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    &::before {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 0px;
+        height: 0px;
+        border-bottom: 1221px solid #F6F6F6;;
+        border-left: 725.5px solid transparent;
+        content: "";
+    }
+
+}

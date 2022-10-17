@@ -28,6 +28,14 @@
             height: 350px;
             background: url('../assets/img/right-banner-a4.webp') no-repeat center;
         }
+
+        &--envelope {
+            top: -85px;
+            left: -57px;
+            width: 354px;
+            height: 350px;
+            background: url('../assets/img/right-banner-envelope.webp') no-repeat;
+        }
     }
 
     &::before {
@@ -47,6 +55,14 @@
 
         .white2blue-btn {
             width: 238px;
+        }
+    }
+
+    &--2 {
+        top: 85px;
+
+        .white2blue-btn {
+            width: 190px;
         }
     }
 }
