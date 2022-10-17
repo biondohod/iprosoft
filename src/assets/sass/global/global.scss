@@ -125,9 +125,7 @@ input[type="search"]::-moz-placeholder {
     &__arrow {
         position: relative;
         z-index: 2;
-        flex-shrink: 0;
         flex-grow: 1;
-        width: 700px;
         height: 1px;
         margin-right: 24px;
         background-color: #AFAFAF;
@@ -169,7 +167,8 @@ input[type="search"]::-moz-placeholder {
 }
 
 
-.white2blue-btn {
+.white2blue-btn,
+.white2orange-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,10 +182,20 @@ input[type="search"]::-moz-placeholder {
     text-decoration: none;
     transition: border-color 0.4s, background-color 0.4s;
     cursor: pointer;
+}
 
+.white2blue-btn {
     &:hover {
         background-color: #1D4687;
         border-color: #1D4687;
+    }
+}
+
+.white2orange-btn {
+    padding: 9px 12px;
+    &:hover {
+        background-color: #EA5B21;
+        border-color: #EA5B21;
     }
 }
 
