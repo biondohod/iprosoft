@@ -49,6 +49,8 @@
     }
 
     &__mail {
+        display: flex;
+        align-items: center;
         padding-left: 48px;
         background: url('../assets/img/mail.svg') no-repeat center left;
 
@@ -60,6 +62,7 @@
 
     &__social {
         display: grid;
+        align-items: center;
         gap: 24px;
 
         &--vk,

@@ -57,6 +57,7 @@ html {
 }
 
 body {
+    position: relative;
     display: flex;
     flex-direction: column;
     min-width: 1569px;
@@ -202,4 +203,76 @@ input[type="search"]::-moz-placeholder {
 
 .quality {
     margin-bottom: 120px;
+}
+
+.decorative {
+    &__right {
+        position: absolute;
+        z-index: -10;
+        width: 617px;
+        height: 680px;
+        overflow: hidden;
+
+        &::before {
+            position: absolute;
+            width: 617px;
+            bottom: 0;
+            content: "";
+        }
+
+        &--top {
+            bottom: 7251px;
+            right: 0;
+
+            &::before {
+                height: 1591px;
+                background: url('../assets/img/decorative-right.webp') left bottom;
+            }
+        }
+
+        &--middle {
+            bottom: 3815px;
+            right: 0;
+            height: 1038px;
+
+            &::before {
+                height: 1038px;
+                background: url('../assets/img/decorative-right.webp') left bottom;
+            }
+        }
+    }
+
+    &__left {
+        position: absolute;
+        z-index: -10;
+        width: 777px;
+        overflow: hidden;
+
+        &::before {
+            position: absolute;
+            width: 777px;
+            height: 1307px;
+            bottom: 0;
+            background: url('../assets/img/decorative-left.webp') right top;
+            content: "";
+        }
+
+        &--middle {
+            bottom: 4627px;
+            height: 1423px;
+
+            &::before {
+                height: 1307px;
+            }
+        }
+
+        &--bottom {
+            bottom: 1230px;
+            height: 1423px;
+
+            &::before {
+                height: 1423px;
+            }
+        }
+    }
 }
