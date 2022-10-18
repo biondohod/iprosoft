@@ -21,9 +21,16 @@
 //Остальные страницы
 @import './components/bredcrumbs.scss';
 
-//Отзывы
-@import './components/reviews/reviews.scss';
-
 //Наша команда
 @import './components/team/chief-director.scss';
 @import './components/team/employees.scss';
+
+//Отзывы
+@import './components/reviews/reviews.scss';
+
+//Филиальная сеть
+@import './components/branch/branch.scss';
+
+//Контакты
+@import './components/contacts/contacts.scss';
+@import './components/contacts/contacts-tabs.scss';

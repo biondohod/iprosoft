@@ -1,0 +1,97 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%
+    }
+
+    &__connection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .white2orange-btn {
+            min-width: 220px;
+            min-height: 60px;
+            margin-left: 48px;
+        }
+    }
+
+    &__requisites {
+        display: grid;
+        row-gap: 24px;
+        max-width: 280px;
+        margin-right: 150px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+}
+
+.connection {
+    &__mail {
+        padding-left: 48px;
+        margin-bottom: 32px;
+        background: url('../assets/img/envelope.svg') no-repeat center left;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    &__list {
+        position: relative;
+        display: grid;
+        row-gap: 16px;
+        margin-bottom: 24px;
+        padding-left: 48px;
+
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 24px;
+            height: 24px;
+            background: url('../assets/img/phone-white.svg');
+            content: "";
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__link {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    &__descr {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160%;
+    }
+}
+
+.requisites {
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__mail,
+    &__phone {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}

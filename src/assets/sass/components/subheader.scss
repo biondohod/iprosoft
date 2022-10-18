@@ -1,5 +1,12 @@
 .subheader {
+
+    margin-top: 72px;
+    margin-bottom: 60px;
+    min-height: 628px;
+    color: #FFF;
+
     &--main {
+        margin-top: 0;
         margin-bottom: 120px;
         img {
             width: 100%;
@@ -14,21 +21,18 @@
     }
 
     &--reviews {
-        margin-top: 72px;
         margin-bottom: -529px;
-        min-height: 628px;
-        background: #1D4687 url('../assets/img/reviews-bg.webp') no-repeat right;
+        background: #1D4687 url('../assets/img//reviews/reviews-bg.webp') no-repeat right;
     }
 
     &--team {
-        margin-top: 72px;
-        margin-bottom: 60px;
-        min-height: 628px;
-        background: #1D4687 url('../assets/img/team-bg.webp') no-repeat right;
-        color: #FFF;
-
+        background: #1D4687 url('../assets/img/team/team-bg.webp') no-repeat right;
         .breadcrumbs {
             margin-bottom: 40px;
         }
+    }
+
+    &--contacts {
+        background: #1D4687 url('../assets/img/contacts/contacts-bg.webp') no-repeat right;
     }
 }

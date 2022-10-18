@@ -35,11 +35,11 @@
         &--reviews {
             top: 700px;
             height: 1190px;
-            width: 777px;
+            width: 766px;
 
             &::before {
                 height: 1190px;
-                width: 777px;
+                width: 766px;
             }
         }
     }
@@ -54,8 +54,8 @@
             position: absolute;
             width: 777px;
             height: 1307px;
-            bottom: 0;
-            background: url('../assets/img/decorative-left.webp') right top;
+            top: 0;
+            background: url('../assets/img/decorative.webp') right top;
             content: "";
         }
 
@@ -70,9 +70,11 @@
 
         &--bottom {
             bottom: 1230px;
+            width: 846px;
             height: 1423px;
 
             &::before {
+                width: 846px;
                 height: 1423px;
             }
         }
@@ -83,6 +85,29 @@
 
             &::before {
                 height: 1307px;
+            }
+        }
+
+        &--team {
+            top: 700px;
+            height: 1307px;
+            width: 692px;
+
+            &::before {
+                width: 692px;
+                height: 1307px;
+            }
+        }
+
+        &--contacts {
+            top: 700px;
+            width: 866px;
+            height: 1457px;
+
+            &::before {
+                width: 866px;
+                height: 1457px;
+                background-image: url('../assets/img/decorative-left.webp');
             }
         }
     }

@@ -1,0 +1,69 @@
+.branch {
+    position: relative;
+
+    &__list {
+        position: absolute;
+        top: 175px;
+        left: 298px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__pin {
+        margin-right: 15px;
+    }
+
+    &__info {
+        display: grid;
+        row-gap: 16px;
+        width: 250px;
+        padding: 16px;
+        padding-top: 0;
+        background-color: #FFF;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 160%;
+
+        span,
+        a {
+            max-width: 215px;
+        }
+    }
+
+    &__img {
+        position: relative;
+        left: -16px;
+    }
+
+    &__name,
+    &__address,
+    &__phone-list,
+    &__mail {
+        padding-left: 25px;
+        background: url('../assets/img/branch/person.svg') no-repeat left top 3px;
+        background-size: 16px;
+    }
+
+    &__address {
+        background-image: url('../assets/img/pin.svg');
+    }
+
+    &__phone-list {
+        background-image: url('../assets/img/phone.svg');
+    }
+
+    &__mail {
+        background-image: url('../assets/img/mail.svg');
+    }
+
+    &__phone,
+    &__mail {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .blue2orange-btn {
+        width: 220px;
+        margin: 60px auto;
+    }
+}

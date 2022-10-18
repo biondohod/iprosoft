@@ -35,9 +35,10 @@ gulp.task('styles', async () => {
 //HTML minify
 
 gulp.task('htmlmin', async () => {
-  return gulp.src('./src/*.html')
+  return gulp.src('./src/**/*.html')
     .pipe(htmlmin({ collapseWhitespace: true,
     removeComments: true }))
+    .pipe(rename({dirname: ''}))
     .pipe(gulp.dest('./build'))
     .pipe(sync.stream());
 });
