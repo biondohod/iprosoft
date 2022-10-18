@@ -71,6 +71,7 @@ gulp.task("copy", async () => {
     "./src/assets/fonts/**/*.{woff,woff2}",
     "./src/assets/img/**/*.svg",
     "./src/*.ico",
+    "./src/js/*.js"
   ], {
     base: "src"
   })

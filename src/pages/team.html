@@ -4,7 +4,7 @@
 
 <head>
     <link rel="stylesheet" href="./css/style.min.css">
-    <title>Отзывы</title>
+    <title>Наша команда</title>
 </head>
 
 <body>
@@ -147,7 +147,7 @@
                                 <a href="#" class="burger-menu__link">О нас</a>
                             </li>
                             <li class="burger-menu__item">
-                                <a href="#" class="burger-menu__link">Команда</a>
+                                <a class="burger-menu__link">Команда</a>
                             </li>
                             <li class="burger-menu__item">
                                 <a href="#" class="burger-menu__link">История</a>
@@ -169,7 +169,7 @@
                 <!-- Третий столбец -->
 
                 <div class="burger-menu__col">
-                    <a class="burger-menu__title burger-menu__title--reviews">Отзывы</a>
+                    <a href="reviews.html" class="burger-menu__title burger-menu__title--reviews">Отзывы</a>
                     <a href="#" class="burger-menu__title">Контакты</a>
                     <div class="burger-menu__phone">
                         <a href="tel:88001004950" class="phone__link">8-800-100-495-0</a>
@@ -209,115 +209,149 @@
         </div>
     </header>
 
-    <!-- Основное содержимое страницы -->
     <main>
-        <div class="subheader subheader--reviews">
+        <div class="subheader subheader--team">
             <div class="subheader__content">
                 <ul class="breadcrumbs">
                     <li class="breadcrumbs__item">
                         <a href="index.html" class="breadcrumbs__link">Главная</a>
                     </li>
                     <li class="breadcrumbs__item">
-                        <a class="breadcrumbs__link breadcrumbs__link--active">Отзывы</a>
+                        <a href="#" class="breadcrumbs__link">О компании</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__link breadcrumbs__link--active">Команда</a>
                     </li>
                 </ul>
+                <div class="chief-director">
+                    <h1 class="chief-director__title">Наша команда</h1>
+                    <h2 class="chief-director__name">Блинков Игорь Евгеньевич</h2>
+                    <span class="chief-director__function">Директор <br> Учредитель</span>
+                    <span class="chief-director__quote">
+                        Главная ценность компании – это наши люди, наша команда. То, чем мы зарабатываем деньги – это ум
+                        и деловые качества наших сотрудников. Наши люди –
+                        это наш основной инструмент.
+                        Все руководители компании, это молодые и амбициозные ребята, когда то пришедшие на должности
+                        менеджеров. Это позволяет нам учить новых
+                        сотрудников на собственном успешном опыте, расти и развиваться вместе. Наша компания – это
+                        единый живой механизм, где каждый четко знает свою роль
+                        и понимает свою зону ответственности.
+                    </span>
+                    <a href="#" class="chief-director__link white2orange-btn">Подробнее</a>
+                </div>
             </div>
         </div>
+
         <div class="main-content">
-            <h1 class="reviews__title">Отзывы</h1>
-            <ul class="reviews__list reviews__list--static">
-                <li class="reviews__item">
-                    <img src="./assets/img/review-1.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-2.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-3.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-4.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-1.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-2.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-3.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-4.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-1.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-2.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-3.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-                <li class="reviews__item">
-                    <img src="./assets/img/review-4.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                </li>
-            </ul>
-
-            <!-- Баннер прибитый к правому краю экрана -->
-            <div class="right-banner right-banner--reviews">
-                <div class="right-banner__decorative right-banner__decorative--speaker"></div>
-                <span class="right-banner__title">Нам нужны ваши отзывы</span>
-                <a href="#" class="white2blue-btn">Оставить отзыв</a>
-            </div>
-
-            <div>
-                <ul class="reviews__list reviews__list--dynamic">
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-1.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+            <section class="employees">
+                <h2 class="visually-hidden">Наши сотрудники</h2>
+                <ul class="employees__list">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/shatunov.webp" alt="Сотрудник." class="employees__photo" width="240"
+                            height="240">
+                        <h3 class="employees__name">Шатунов <br> Олег Васильевич</h3>
+                        <span class="employees__function">Финансовый директор Учредитель</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-2.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/buzmakov.webp" alt="Сотрудник." class="employees__photo" width="240"
+                            height="240">
+                        <h3 class="employees__name">Бузмаков <br> Александр Иванович</h3>
+                        <span class="employees__function">Исполнительный директор</span>
+                        <span class="employees__experience">В компании с марта 2003г.</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-3.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/shatunova.webp" alt="Сотрудник." class="employees__photo"
+                            width="240" height="240">
+                        <h3 class="employees__name">Шатунова <br> Татьяна Владимировна</h3>
+                        <span class="employees__function">
+                            Руководитель управления
+                            сбыта и обслуживания г. Киров
+                        </span>
+                        <span class="employees__experience">В компании с ноября 2004г.</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-4.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/stogov.webp" alt="Сотрудник." class="employees__photo"
+                            width="240" height="240">
+                        <h3 class="employees__name">Стогов <br> Алексей Алексеевич</h3>
+                        <span class="employees__function">
+                            Руководитель управления
+                            регионального сбыта
+                            и обслуживания г. Киров
+                        </span>
+                        <span class="employees__experience">В компании с декабря 1998г.</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-1.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/devyatih.webp" alt="Сотрудник." class="employees__photo"
+                            width="240" height="240">
+                        <h3 class="employees__name">Девятых <br> Андрей Алексеевич</h3>
+                        <span class="employees__function">
+                            Руководитель подразделения
+                            г. Краснодар
+                        </span>
+                        <span class="employees__experience">В компании с августа 2002г.</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-2.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/tokarev.webp" alt="Сотрудник." class="employees__photo"
+                            width="240" height="240">
+                        <h3 class="employees__name">Токарев <br> Виктор Валерьевич</h3>
+                        <span class="employees__function">
+                            Руководитель подразделения
+                            г. Казань
+                        </span>
+                        <span class="employees__experience">В компании с июля 2004г.</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-3.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/sadakov.webp" alt="Сотрудник." class="employees__photo"
+                            width="240" height="240">
+                        <h3 class="employees__name">Садаков <br> Вениамин Юрьевич</h3>
+                        <span class="employees__function">
+                            Руководитель подразделения
+                            г. Ижевск
+                        </span>
+                        <span class="employees__experience">В компании с ноября 2005г.</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-4.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/guk.webp" alt="Сотрудник." class="employees__photo"
+                            width="240" height="240">
+                        <h3 class="employees__name">Гук <br> Вячеслав Александрович</h3>
+                        <span class="employees__function">
+                            Руководитель подразделения
+                            г. Тюмень
+                        </span>
+                        <span class="employees__experience">В компании с декабря 2015г.</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-1.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/zinoviev.webp" alt="Сотрудник." class="employees__photo"
+                            width="240" height="240">
+                        <h3 class="employees__name">Зиновьев <br> Константин Сергеевич</h3>
+                        <span class="employees__function">
+                            Руководитель подразделения
+                            г. Новосибирск
+                        </span>
+                        <span class="employees__experience">В компании с марта 2011г.</span>
                     </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-2.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                    </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-3.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
-                    </li>
-                    <li class="reviews__item">
-                        <img src="./assets/img/review-4.webp" alt="Отзыв." class="reviews__img" width="309" height="437">
+                    <li class="employees__item">
+                        <img src="./assets/img/team/shpicina.webp" alt="Сотрудник." class="employees__photo"
+                            width="240" height="240">
+                        <h3 class="employees__name">Шипицына <br> Светлана Ивановна</h3>
+                        <span class="employees__function">
+                            Руководитель подразделения
+                            г. Новосибирск
+                        </span>
+                        <span class="employees__experience">В компании с февраля 2010г.</span>
                     </li>
                 </ul>
-
-                <button type="button" class="blue2orange-btn">Показать еще</button>
-            </div>
+            </section>
         </div>
     </main>
 
     <!-- Подвал -->
-    <footer class="footer footer--reviews">
+    <footer class="footer">
+        <section class="right-banner right-banner--mailing">
+            <div class="right-banner__decorative right-banner__decorative--envelope"></div>
+            <span class="right-banner__title">Подписаться на новостную рассылку</span>
+            <a href="#" class="white2blue-btn">Подписаться</a>
+        </section>
         <div class="footer__content">
             <a href="index.html" class="footer__logo">
                 <img src="./assets/img/logo-footer.svg" alt="Логотип Информ проект." width="380" height="60">
@@ -364,7 +398,7 @@
                             <a href="#">Пресс-центр</a>
                         </li>
                         <li class="footer__navigation__item">
-                            <a>Отзывы</a>
+                            <a href="reviews.html">Отзывы</a>
                         </li>
                         <li class="footer__navigation__item">
                             <a href="#">Контакты</a>
@@ -376,7 +410,6 @@
         </div>
     </footer>
 
-    <div class="decorative__right decorative__right--reviews"></div>
     <div class="decorative__left decorative__left--reviews"></div>
 </body>
 

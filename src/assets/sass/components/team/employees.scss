@@ -1,0 +1,45 @@
+.employees {
+    margin-bottom: 148px;
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 257px);
+        column-gap: 218px;
+        row-gap: 48px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &:last-child {
+            grid-column: 2/3;
+        }
+    }
+
+    &__photo {
+        margin-bottom: 24px;
+        border-radius: 50%;
+    }
+
+    &__name {
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__function {
+        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__experience {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+}

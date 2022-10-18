@@ -1,0 +1,39 @@
+.chief-director {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 666px;
+
+    &__title {
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__name {
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    &__function {
+        margin-bottom: 24px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__quote {
+        margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__link {
+        padding: 16px 12px;
+        min-width: 160px;
+    }
+}

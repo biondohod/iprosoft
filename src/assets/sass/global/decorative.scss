@@ -11,6 +11,7 @@
             position: absolute;
             bottom: 0;
             width: 617px;
+            background: url('../assets/img/decorative-right.webp') left bottom;
             content: "";
         }
 
@@ -19,7 +20,6 @@
 
             &::before {
                 height: 1591px;
-                background: url('../assets/img/decorative-right.webp') left bottom;
             }
         }
 
@@ -29,7 +29,6 @@
 
             &::before {
                 height: 1038px;
-                background: url('../assets/img/decorative-right.webp') left bottom;
             }
         }
 
@@ -41,7 +40,6 @@
             &::before {
                 height: 1190px;
                 width: 777px;
-                background: url('../assets/img/decorative-right-2.webp') left bottom;
             }
         }
     }

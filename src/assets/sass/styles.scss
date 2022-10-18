@@ -22,4 +22,8 @@
 @import './components/bredcrumbs.scss';
 
 //Отзывы
-@import './components/reviews.scss';
+@import './components/reviews/reviews.scss';
+
+//Наша команда
+@import './components/team/chief-director.scss';
+@import './components/team/employees.scss';

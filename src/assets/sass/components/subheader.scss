@@ -19,4 +19,16 @@
         min-height: 628px;
         background: #1D4687 url('../assets/img/reviews-bg.webp') no-repeat right;
     }
+
+    &--team {
+        margin-top: 72px;
+        margin-bottom: 60px;
+        min-height: 628px;
+        background: #1D4687 url('../assets/img/team-bg.webp') no-repeat right;
+        color: #FFF;
+
+        .breadcrumbs {
+            margin-bottom: 40px;
+        }
+    }
 }
