@@ -42,10 +42,22 @@
                 width: 766px;
             }
         }
+
+        &--branch {
+            bottom: 1221px;
+            height: 1183px;
+            width: 777px;
+
+            &::before {
+                height: 1183px;
+                width: 777px;
+            }
+        }
     }
 
     &__left {
         position: absolute;
+        left: 0;
         z-index: -10;
         width: 777px;
         overflow: hidden;
@@ -109,6 +121,12 @@
                 height: 1457px;
                 background-image: url('../assets/img/decorative-left.webp');
             }
+        }
+
+        &--branch {
+            top: 278px;
+            height: 1307px;
+
         }
     }
 }

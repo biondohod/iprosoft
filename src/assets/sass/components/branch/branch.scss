@@ -1,6 +1,12 @@
 .branch {
     position: relative;
 
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
     &__list {
         position: absolute;
         top: 175px;

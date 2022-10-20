@@ -5,6 +5,8 @@
 
     &__item {
         position: relative;
+        display: inline-block;
+        height: min-content;
 
         &:not(:last-child) {
             margin-right: 26px;
@@ -17,7 +19,7 @@
                 left: -18px;
                 width: 11px;
                 height: 4px;
-                transform: translateY(-50%);
+                transform: translateY(-25%);
                 background: url('../assets/img/breadcrumbs-arrow.svg') no-repeat;
                 content: "";
             }

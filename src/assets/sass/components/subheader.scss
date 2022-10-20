@@ -35,4 +35,23 @@
     &--contacts {
         background: #1D4687 url('../assets/img/contacts/contacts-bg.webp') no-repeat right;
     }
+
+    &--branch {
+        min-height: min-content;
+        color: #000;
+
+        .subheader__content {
+            padding-bottom: 0;
+        }
+
+        .breadcrumbs__item {
+            &:not(:first-child)::before {
+                background-image: url('../assets/img/breadcrumbs-arrow-black.svg');
+            }
+        }
+
+        .breadcrumbs__link {
+            color: #000;
+        }
+    }
 }
