@@ -1,0 +1,15 @@
+.additional-systems {
+    &__title {
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 364px);
+        gap: 112px;
+        margin-bottom: 120px;
+    }
+}

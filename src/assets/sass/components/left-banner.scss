@@ -52,5 +52,13 @@
         .left-banner__title {
             max-width: 375px;
         }
+
+        &--building {
+            top: 95px;
+
+            .left-banner__title {
+                max-width: 375px;
+            }
+        }
     }
 }

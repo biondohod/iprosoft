@@ -1,0 +1,56 @@
+.main-systems {
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 60px;
+        margin-bottom: 120px;
+    }
+
+    &__item {
+        min-height: 255px;
+        padding: 32px 48px;
+        background-color: #F8F8F8;
+        box-shadow: 0px 16px 26px rgba(0, 0, 0, 0.07);
+
+        &:nth-child(2n) {
+            padding-right: 476px;
+        }
+
+        &:nth-child(2n+1) {
+            padding-left: 476px;
+        }
+
+        &:nth-child(1) {
+            background: #F8F8F8 url('../assets/img/building/building-1.webp') no-repeat center left;
+        }
+
+        &:nth-child(2) {
+            background: #F8F8F8 url('../assets/img/building/building-2.webp') no-repeat center right;
+        }
+
+        &:nth-child(3) {
+            background: #F8F8F8 url('../assets/img/building/building-3.webp') no-repeat center left;
+        }
+
+        &:nth-child(4) {
+            background: #F8F8F8 url('../assets/img/building/building-4.webp') no-repeat center right;
+        }
+
+        &:nth-child(5) {
+            background: #F8F8F8 url('../assets/img/building/building-5.webp') no-repeat center left;
+        }
+
+        &:nth-child(6) {
+            background: #F8F8F8 url('../assets/img/building/building-6.webp') no-repeat center right;
+        }
+
+        &:nth-child(7) {
+            background: #F8F8F8 url('../assets/img/building/building-7.webp') no-repeat center left;
+        }
+
+        &:nth-child(8) {
+            background: #F8F8F8 url('../assets/img/building/building-8.webp') no-repeat center right;
+        }
+    }
+
+}

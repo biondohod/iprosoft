@@ -101,6 +101,14 @@
             &:focus {
                 outline: none;
             }
+
+            &[type="search"]::-webkit-input-placeholder {
+                color: #FFF;
+            }
+
+            &[type="search"]::-moz-placeholder {
+                color: #FFF;
+            }
         }
 
         &--btn {

@@ -1,0 +1,86 @@
+.building {
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__descr {
+        margin-bottom: 32px;
+        font-weight: 400;
+    }
+
+    &__systems {
+        display: flex;
+        margin-bottom: 54px;
+    }
+
+    &__search {
+        &::after {
+            position: absolute;
+            top: -16px;
+            left: -16px;
+            z-index: -1;
+            width: 1412px;
+            height: 80px;
+            background-color: #1D4687;
+            content: "";
+        }
+    }
+}
+
+.systems {
+    display: flex;
+    padding: 8px 27px 7px 24px;
+    background-color: #1D4687;
+    color: #FFF;
+
+    &__count {
+        margin-right: 9px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 130%;
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    &--main {
+        margin-right: 24px;
+    }
+
+    &__name {
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    &__descr {
+        display: inline-block;
+        max-width: 864px;
+        margin-bottom: 16px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        width: min-content;
+        height: 24px;
+        padding-right: 24px;
+        background: url('../assets/img/arrow-black.svg') no-repeat center right;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1D4687;
+        text-decoration: none;
+    }
+}
