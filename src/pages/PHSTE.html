@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>ПСС ТЭ</title>
+</head>
+
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__left-col">
+                <button type="button" class="header__burger-btn">
+                    <span class="visually-hidden">Открыть бургер меню.</span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a href="index.html" class="header__logo">
+                    <img src="./assets/img/logo-main.svg" alt="Логотип информ проект." width="228" height="36">
+                </a>
+            </div>
+            <div class="header__right-col">
+                <nav class="header__navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">Продукты</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">Услуги</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">О компании</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">Пресс-центр</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="contacts.html" class="navigation__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__user-navigation">
+                    <ul class="user-navigaton__list">
+                        <li class="user-navigation__item">
+                            <a href="#" class="user-navigation__link user-navigation__link--search">
+                                <span class="visually-hidden">Поиск.</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Бургер меню. Для показа добавляется класс burger-menu--open -->
+        <div class="burger-menu">
+            <div class="burger-menu__content">
+                <!-- Первый столбец -->
+                <div class="burger-menu__col">
+                    <div class="burger-menu__wrapper">
+                        <button type="button" class="burger-menu__close"></button>
+                        <a href="index.html">
+                            <img src="./assets/img/logo-main.svg" alt="Логотип информ проект." width="228" height="36">
+                        </a>
+                    </div>
+                    <div class="burger-menu__list-wrapper">
+                        <span class="burger-menu__title">Продукты и решения</span>
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="PHSTE.html" class="burger-menu__link">ПСС Техэксперт</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">ПСС Кодекс</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Техэксперт: Банк документов</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Система управления НТД</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Автоматизация производственной безопасности</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Система управления требованиями</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Сметные программы</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Зарубежные и международные стандарты</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Интеграционные решения</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="burger-menu__list-wrapper">
+                        <span class="burger-menu__title">Для специалистов</span>
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Строителю, проектировщику</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Инженеру, конструктору</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту по безопасности</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту лаборатории, метрологу</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту различных отраслей промышленности</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту пищевой, химической, <br>
+                                    фармацевтической промышленности</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту в области медицины и
+                                    здравоохранения</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Юристу, бухгалтеру, HR-специалисту и специалисту
+                                    <br> по госзакупкам</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Второй столбец -->
+                <div class="burger-menu__col">
+                    <div class="burger-menu__search">
+                        <input type="search" placeholder="Найти" class="burger-menu__search--input">
+                        <a href="#" class="burger-menu__search--btn">
+                            <span class="visually-hidden">Поиск.</span>
+                        </a>
+                    </div>
+                    <a href="#" class="burger-menu__title">Услуги и сервисы</a>
+                    <div class="burger-menu__list-wrapper">
+                        <span class="burger-menu__title">О компании</span>
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">О нас</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="team.html" class="burger-menu__link">Команда</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">История</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Вакансии</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="branch.html" class="burger-menu__link">Филиальная сеть</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Корпоративная культура</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="burger-menu__title burger-menu__title--prs-centre">Пресс-центр</a>
+                </div>
+
+                <!-- Третий столбец -->
+
+                <div class="burger-menu__col">
+                    <a href="reviews.html" class="burger-menu__title burger-menu__title--quality">Отзывы</a>
+                    <a href="contacts.html" class="burger-menu__title">Контакты</a>
+                    <div class="burger-menu__phone">
+                        <a href="tel:88001004950" class="phone__link">8-800-100-495-0</a>
+                        <span class="phone__descr">Звонок по России бесплатный</span>
+                        <button class="phone__btn">Заказать звонок</button>
+                    </div>
+                    <ul class="burger-menu__social">
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--inst">
+                                <span class="visually-hidden">Мы в инстаграме.</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://t.me/iprosoft" class="social__link social__link--tg">
+                                <span class="visually-hidden">Мы в телеграме.</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://vk.com/informproektgk" class="social__link social__link--vk">
+                                <span class="visually-hidden">Мы в вконтакте.</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--youtube">
+                                <span class="visually-hidden">Мы на ютубе.</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="burger-menu__find-doc">
+                <div class="find-doc__decorative"></div>
+                <span class="find-doc__text">Более 25 000 000 актуальных правовых<br>и нормативно-технических
+                    документов</span>
+                <button class="find-doc__btn">Найти документ</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="subheader subheader--phste">
+            <div class="subheader__content">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a href="index.html" class="breadcrumbs__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__link breadcrumbs__link--active">Профессиональные справочные системы
+                            «Техэксперт / Кодекс»</a>
+                    </li>
+                </ul>
+                <h1 class="phs__title">Профессиональные справочные <br> системы «Техэксперт / Кодекс»</h1>
+                <span class="phs__descr">
+                    Специализированные продукты и решения, включающие нормативно-правовую,
+                    нормативно-техническую документацию, уникальные сервисы, услуги и готовые решения для специалистов
+                    Российских предприятий всех отраслей экономики.
+                </span>
+                <div class="phs__search">
+                    <input type="search" placeholder="Найти документ">
+                    <button id="phs__search" type="button">
+                        <span class="visually-hidden">Поиск.</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="main-content">
+            <h2 class="visually-hidden">Список продуктов и решений</h2>
+            <ul class="phste__list">
+                <li class="phste__item">
+                    <h3 class="phste__name">Нефтегазовый комплекс</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Металлургический <br> комплекс</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Машиностроительный <br> комплекс</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Нормы, правила, стандарты <br> и законодательство РФ</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Авиатор</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Помощник конструктора</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Энергетика. Премиум</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Электроэнергетика</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Теплоэнергетика</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Базовые нормативные <br> документы и Лаборатория</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Строй-Ресурс: <br> Подрядные организации</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Строй-Ресурс: <br> Проектные организации</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Стройэксперт</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Стройтехнолог</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Помощник <br> проектировщика</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Линейка «ТПД»</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Дорожное строительство</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Эксплуатация зданий</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Охрана труда</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Промышленная <br> безопасность</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Пожарная безопасность</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Экология</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Помощник метролога</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Пищевая промышленность</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Химическая <br> промышленность</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Медицинская промышленность. Фармацевтика</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Медицина <br> и здравоохранение</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Медицина. Премиум</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Помощник кадровика</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Помощник бухгалтера</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Помощник юриста</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Системы <br> судебной практики</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Региональное <br> законодательство</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Судебный аналитик</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item">
+                    <h3 class="phste__name">Международное право</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+                <li class="phste__item phste__item--two-line">
+                    <h3 class="phste__name">Государственные <br> и муниципальные закупки</h3>
+                    <span class="phste__descr">Профессиональная отраслевая справочная система, не имеющая аналогов в
+                        России.</span>
+                </li>
+            </ul>
+            <a href="#" class="blue2orange-btn phs__btn">
+                <span>Узнать подробнее <br> об услугах и сервисах</span>
+            </a>
+        </div>
+    </main>
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="right-banner right-banner--help--phs">
+            <div class="right-banner__decorative right-banner__decorative--a4"></div>
+            <span class="right-banner__title">ПОМОЖЕМ вашей компании сделать правильный выбор </span>
+            <a href="#" class="white2blue-btn">Подобрать решение</a>
+        </div>
+        <div class="footer__content">
+            <a class="footer__logo">
+                <img src="./assets/img/logo-footer.svg" alt="Логотип Информ проект." width="380" height="60">
+            </a>
+            <div class="footer__wrapper">
+                <div class="footer__contacts">
+                    <h2 class="visually-hidden">Контакты</h2>
+                    <div class="footer__address">
+                        610035, г. Киров, <br>
+                        ул. Воровского, д. 78А, офис 805
+                    </div>
+                    <div class="footer__phone">
+                        <a href="tel:88001004950">8-800-100-495-0</a>
+                        звонок по России — бесплатный
+                    </div>
+                    <div class="footer__mail">
+                        <a href="mailto:hotline@iprosoft.ru">hotline@iprosoft.ru</a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="https://vk.com/informproektgk" class="footer__social--vk">
+                            vk.com/informproektgk
+                        </a>
+                        <a href="https://t.me/iprosoft" class="footer__social--tg">
+                            t.me/iprosoft
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="visually-hidden">Навигация по сайту.</h2>
+                    <ul class="footer__navigation">
+                        <li class="footer__navigation__item">
+                            <a href="#">Продукты и решения</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="#">Для специалистов</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="#">Услуги и сервисы</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="#">О компании</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="#">Пресс-центр</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="reviews.html">Отзывы</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">©2021 г. Все права защищены.</div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

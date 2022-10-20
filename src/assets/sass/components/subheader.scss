@@ -5,6 +5,12 @@
     min-height: 628px;
     color: #FFF;
 
+    &__content {
+        max-width: 1480px;
+        padding: 24px 50px;
+        margin: 0 auto;
+    }
+
     &--main {
         margin-top: 0;
         margin-bottom: 120px;
@@ -12,12 +18,6 @@
             width: 100%;
             height: auto;
         }
-    }
-
-    &__content {
-        max-width: 1480px;
-        padding: 24px 50px;
-        margin: 0 auto;
     }
 
     &--reviews {
@@ -58,5 +58,10 @@
         .breadcrumbs__link {
             color: #000;
         }
+    }
+
+    &--phste {
+        margin-bottom: 40px;
+        background: #1D4687 url('../assets/img/PHS/PHSTE-bg.webp') no-repeat right;
     }
 }

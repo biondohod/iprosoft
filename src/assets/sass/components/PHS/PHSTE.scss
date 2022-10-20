@@ -1,0 +1,94 @@
+.phste {
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 428px);
+        gap: 48px;
+        margin-bottom: 60px;
+    }
+
+    &__item {
+        position: relative;
+        overflow: hidden;
+        min-height: 176px;
+        padding: 20px 24px;
+        padding-bottom: 26px;
+        background-color: #F8F8F8;
+        cursor: pointer;
+
+        &:nth-child(1) {
+            background: #F8F8F8 url('../assets/img/PHS/oil.svg') no-repeat bottom 32px right 32px;
+        }
+
+        &:nth-child(2) {
+            background: #F8F8F8 url('../assets/img/PHS/metallurgy.svg') no-repeat bottom 32px right 32px;
+        }
+
+        &:nth-child(3) {
+            background: #F8F8F8 url('../assets/img/PHS/mechanical-engineering.svg') no-repeat bottom 32px right 32px;
+        }
+
+        &:nth-child(4) {
+            background: #F8F8F8 url('../assets/img/PHS/norms.svg') no-repeat bottom 32px right 32px;
+        }
+
+        &::before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: #EA5B21;
+            opacity: 0;
+            transition: opacity 0.4s;
+            content: "";
+        }
+
+        &:hover {
+            .phste__name {
+                bottom: 134px;
+                color: #FFF;
+            }
+
+            .phste__descr {
+                top: 58px;
+                transform: translateY(0);
+                color: #FFF;
+            }
+
+            &::before {
+                opacity: 0.9;
+            }
+        }
+
+        &--two-line {
+            &:hover {
+                .phste__name {
+                    bottom: 112px;
+                }
+
+                .phste__descr {
+                    top: 80px;
+                }
+            }
+        }
+    }
+
+    &__name {
+        position: absolute;
+        bottom: 26px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        transition: bottom 0.4s, color 0.4s;
+    }
+
+    &__descr {
+        position: absolute;
+        top: 100%;
+        max-width: 340px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        transition: top 0.4s, transform 0.4s, color 0.4s;
+    }
+}
