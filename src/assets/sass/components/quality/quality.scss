@@ -1,0 +1,13 @@
+.quality {
+    margin-bottom: 91px;
+
+    &__list {
+        margin-bottom: 60px;
+
+        & + .blue2orange-btn {
+            width: 220px;
+            margin: 0 auto;
+            margin-bottom: 91px;
+        }
+    }
+}
