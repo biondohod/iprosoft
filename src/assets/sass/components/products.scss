@@ -8,19 +8,31 @@
     }
 
     &__item {
+        position: relative;
         display: flex;
         flex-direction: column;
         min-height: 300px;
+        overflow: hidden;
 
         &:nth-child(2n) {
-            .products__text {
-                background-color: #EA5B21;
-            }
+            background-color: #EA5B21;
         }
 
         &:nth-child(2n - 1) {
-            .products__text {
-                background-color: #1D4687;
+            background-color: #1D4687;
+        }
+
+        &:hover {
+            .products__img {
+                top: -153px;
+            }
+
+            .products__name {
+                opacity: 0;
+            }
+
+            .products__hover {
+                top: 84px;
             }
         }
     }
@@ -28,7 +40,8 @@
     &__text {
         flex-grow: 1;
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         padding: 0 24px;
         color: #FFFFFF;
     }
@@ -37,5 +50,53 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;
+        transition: opacity 0.4s;
+    }
+
+    &__img {
+        position: relative;
+        top: 0;
+        transition: top 0.4s;
+    }
+
+    &__hover {
+        position: absolute;
+        top: 100%;
+        display: grid;
+        justify-items: flex-start;
+        max-width: 381px;
+        transition: top 0.4s;
+
+        span {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        a {
+            padding-right: 28px;
+            background: url('../assets/img/arrow-products.svg') no-repeat center right;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 160%;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        &--30 {
+            gap: 30px;
+        }
+
+        &--6 {
+            gap: 6px;
+        }
+
+        &--12 {
+            gap: 12px;
+        }
+
+        &--34 {
+            gap: 34px;
+        }
     }
 }
