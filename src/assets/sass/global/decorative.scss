@@ -53,6 +53,17 @@
                 width: 777px;
             }
         }
+
+        &--solutions {
+            top: 1196px;
+            height: 1307px;
+            width: 777px;
+
+            &::before {
+                height: 1307px;
+                width: 777px;
+            }
+        }
     }
 
     &__left {
@@ -127,6 +138,17 @@
             top: 278px;
             height: 1307px;
 
+        }
+
+        &--solutions {
+            top: 700px;
+            height: 1459px;
+            width: 867px;
+
+            &::before {
+                height: 1459px;
+                width: 867px;
+            }
         }
     }
 }

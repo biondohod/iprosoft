@@ -1,0 +1,39 @@
+.solutions {
+    &__title {
+        margin-bottom: 60px;
+    }
+
+    &__descr {
+        margin-bottom: 199px;
+    }
+
+    &__slogan {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        margin: 0 auto;
+        margin-bottom: 120px;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 130%;
+        color: #EA5B21;
+
+        span {
+            &:nth-child(2) {
+                margin: 8px 0;
+                padding-left: 140px;
+                font-size: 42px;
+                line-height: 130%;
+                color: #1D4687
+            }
+
+            &:nth-child(3) {
+                padding-left: 338px;
+            }
+        }
+    }
+
+    &__btn {
+        margin-top: 60px;
+    }
+}

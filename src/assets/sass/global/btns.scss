@@ -50,3 +50,15 @@
         background-color: #EA5B21;
     }
 }
+
+.phs__btn,
+.solutions__btn {
+    width: 428px;
+    margin: 0 auto;
+    padding: 16px 34.5px;
+
+    span {
+        padding-left: 55px;
+        background: url('../assets/img/PHS/btn.svg') no-repeat center left;
+    }
+}
