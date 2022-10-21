@@ -1,0 +1,40 @@
+.add-systems {
+    &__title {
+        margin-bottom: 45px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__slider {
+        &__content {
+            display: grid;
+            grid-template-columns: repeat(3, 428px);
+            gap: 48px;
+        }
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            min-height: 418px;
+            padding: 32px;
+            background-color: #F8F8F8;
+        }
+    }
+
+    &__name {
+        max-width: 210px;
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    &__descr {
+        margin-bottom: 24px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,43 @@
+.for-specialists {
+    margin-bottom: 167px;
+
+    &__title {
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__descr {
+        margin-bottom: 7px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &::after {
+        position: absolute;
+        top: 1787px;
+        right: 0;
+        width: 1045px;
+        height: 400px;
+        background: url('../assets/img/OSaH/for-specialists.webp') no-repeat;
+        content: "";
+    }
+}
+
+.skills {
+    &__title {
+        display: block;
+        margin-top: 33px;
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__list {
+        display: grid;
+        row-gap: 22px;
+    }
+}

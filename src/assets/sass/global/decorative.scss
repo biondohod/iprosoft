@@ -64,6 +64,17 @@
                 width: 777px;
             }
         }
+
+        &--osah {
+            top: 2436px;
+            height: 1307px;
+            width: 777px;
+
+            &::before {
+                height: 1307px;
+                width: 777px;
+            }
+        }
     }
 
     &__left {

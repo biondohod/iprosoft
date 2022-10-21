@@ -149,4 +149,19 @@
             color: #000;
         }
     }
+
+    &--osah {
+        background: url('../assets/img/OSaH/OSaH-bg.webp') no-repeat right;
+        color: #000;
+
+        .breadcrumbs__item {
+            &:not(:first-child)::before {
+                background-image: url('../assets/img/breadcrumbs-arrow-black.svg');
+            }
+        }
+
+        .breadcrumbs__link {
+            color: #000;
+        }
+    }
 }

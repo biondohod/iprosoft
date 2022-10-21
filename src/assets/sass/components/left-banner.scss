@@ -28,6 +28,14 @@
             height: 350px;
             background: url('../assets/img/left-banner-tablet.webp') no-repeat center;
         }
+
+        &--calc {
+            top: -95px;
+            right: -31px;
+            width: 350px;
+            height: 350px;
+            background: url('../assets/img/calc.webp') no-repeat center;
+        }
     }
 
     &::before {
@@ -55,10 +63,16 @@
 
         &--building {
             top: 95px;
-
-            .left-banner__title {
-                max-width: 375px;
-            }
         }
+
+        &--osah {
+            top: 1256px;
+        }
+    }
+
+    &--calc {
+        top: 3742px;
+
+
     }
 }

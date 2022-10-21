@@ -1,5 +1,6 @@
 .capabilities {
     margin-bottom: 120px;
+
     &__title {
         margin-bottom: 60px;
         font-weight: 700;
@@ -14,11 +15,28 @@
     }
 
     &__item {
+        min-height: 24px;
         padding-left: 56px;
         padding-right: 40px;
         background: url('../assets/img/solutions/capabilities.svg') no-repeat top left;
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
+
+        &--video {
+            padding-left: 76px;
+            background: url('../assets/img/osah/capabilities.svg') no-repeat top left;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &--osah {
+        margin-bottom: 590px;
     }
 }

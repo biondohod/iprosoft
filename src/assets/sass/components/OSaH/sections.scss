@@ -1,0 +1,36 @@
+.sections {
+    margin-bottom: 590px;
+
+    &__title {
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 428px);
+        gap: 48px;
+    }
+
+    &__item {
+        min-height: 278px;
+        padding: 32px;
+        padding-top: 54px;
+        background: #F8F8F8 url('../assets/img/PHS/mechanical-engineering.svg') no-repeat top 32px right 32px;
+    }
+
+    &__name {
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
