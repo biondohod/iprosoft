@@ -1,25 +1,29 @@
 @import './global/global.scss';
 
-@import './global/btns.scss';
-@import './global/decorative.scss';
-
 //Главная страница
-@import './components/header.scss';
-@import './components/burger-menu.scss';
-@import './components/subheader.scss';
 @import './components/main-banner.scss';
 @import './components/numbers.scss';
-@import './components/right-banner.scss';
 @import './components/products.scss';
 @import './components/clients.scss';
-@import './components/left-banner.scss';
-@import './components/tabs.scss';
-@import './components/slider.scss';
 @import './components/news.scss';
-@import './components/footer.scss';
 
-//Остальные страницы
+
+//Часто повторяющиеся блоки
+@import './global/header.scss';
+@import './global/burger-menu.scss';
+@import './global/subheader.scss';
+@import './global/footer.scss';
+@import './global/btns.scss';
+@import './global/decorative.scss';
+@import './global/tabs.scss';
+@import './global/slider.scss';
 @import './global/bredcrumbs.scss';
+@import './global/gallery.scss';
+
+//Баннеры
+@import './components/banners/center-banner.scss';
+@import './components/banners/right-banner.scss';
+@import './components/banners/left-banner.scss';
 
 //Наша команда
 @import './components/team/chief-director.scss';
@@ -56,3 +60,9 @@
 @import './components/OSaH/for-specialists.scss';
 @import './components/OSaH/sections.scss';
 @import './components/OSaH/add-systems.scss';
+
+//Сметный центр
+@import './components/estimate/estimate.scss';
+@import './components/estimate/products.scss';
+@import './components/estimate/services.scss';
+@import './components/estimate/team.scss';

@@ -164,4 +164,11 @@
             color: #000;
         }
     }
+
+    &--estimate {
+        background: #1D4687 url('../assets/img/estimate/estimate-bg.webp') no-repeat right;
+        .breadcrumbs {
+            margin-bottom: 40px;
+        }
+    }
 }

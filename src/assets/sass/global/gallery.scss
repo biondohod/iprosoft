@@ -1,0 +1,19 @@
+.gallery {
+    &__name {
+        margin-top: 32px;
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__descr {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    &--estimate {
+        margin-bottom: 114px;
+    }
+}

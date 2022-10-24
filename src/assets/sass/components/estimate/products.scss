@@ -1,0 +1,124 @@
+.estimate-products {
+
+    &__descr {
+        display: inline-block;
+        margin-bottom: 54px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__main-list {
+        display: grid;
+        grid-template-columns: 666px 666px;
+        gap: 48px;
+        margin-bottom: 120px;
+    }
+
+    &__main-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        padding-bottom: 32px;
+        background-color: #F8F8F8;
+    }
+
+    &__main-name {
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    &__main-descr {
+        margin-bottom: 16px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__main-registry {
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #EA5B21;
+    }
+
+    &__descr-list {
+        display: grid;
+        gap: 14px;
+        margin-bottom: 24px;
+        padding-left: 28px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        li {
+            position: relative;
+
+            &::before {
+                position: absolute;
+                top: 10px;
+                left: -17px;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background-color: #000;
+                content: "";
+            }
+        }
+    }
+
+    &__btns {
+        display: grid;
+        grid-template-columns: 297px 297px;
+        gap: 24px;
+        margin-top: 40px;
+        margin-bottom: 28px;
+    }
+
+    &__contacts {
+        margin-top: auto;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    &__btn {
+        margin-top: auto;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+    }
+}
+
+.estimate__contacts {
+    &__name {
+        display: block;
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__mail,
+    &__phone {
+        padding: 1px 0;
+        padding-left: 40px;
+        color: #000;
+        text-decoration: none;
+    }
+
+    &__mail {
+        margin-right: 115px;
+        background: url('../assets/img/mail.svg') no-repeat left center;
+    }
+
+    &__phone {
+        background: url('../assets/img/phone.svg') no-repeat left center;
+    }
+
+}
+

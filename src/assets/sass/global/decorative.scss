@@ -75,6 +75,17 @@
                 width: 777px;
             }
         }
+
+        &--estimate {
+            bottom: 5116px;
+            height: 1307px;
+            width: 777px;
+
+            &::before {
+                height: 1307px;
+                width: 777px;
+            }
+        }
     }
 
     &__left {
@@ -159,6 +170,15 @@
             &::before {
                 height: 1459px;
                 width: 867px;
+            }
+        }
+
+        &--estimate {
+            top: 5461px;
+            height: 1307px;
+
+            &::before {
+                height: 1307px;
             }
         }
     }

@@ -4,4 +4,8 @@
         display: grid;
         grid-template-columns: repeat(5, 276px);
     }
+
+    &--estimate {
+        margin-bottom: 120px;
+    }
 }

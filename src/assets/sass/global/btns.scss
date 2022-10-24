@@ -62,3 +62,41 @@
         background: url('../assets/img/PHS/btn.svg') no-repeat center left;
     }
 }
+
+.orange2red-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    background-color: #EA5B21;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background-color 0.4s;
+
+    &:hover {
+        background-color: #FF0000;
+    }
+}
+
+.blue-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    background-color: transparent;
+    border: 2px solid #1D4687;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D4687;
+    text-decoration: none;
+    transition: background-color 0.4s, color 0.4s;
+
+    &:hover {
+        background-color: #1D4687;
+        color: #FFF;
+    }
+}
