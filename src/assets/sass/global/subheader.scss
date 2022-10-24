@@ -2,10 +2,14 @@
 
     margin-top: 72px;
     margin-bottom: 60px;
+    height: 1px;
     min-height: 628px;
     color: #FFF;
 
     &__content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
         max-width: 1480px;
         padding: 24px 50px;
         margin: 0 auto;
@@ -28,6 +32,8 @@
     &__search {
         position: relative;
         z-index: 1;
+        margin-top: auto;
+        margin-bottom: 31px;
 
         input {
             width: 100%;
