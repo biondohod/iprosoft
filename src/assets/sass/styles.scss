@@ -1,5 +1,8 @@
 @import './global/global.scss';
 
+//Файл со стилями различных блоков, для которых не имеет смысла выделять доп файл
+@import './global/something.scss';
+
 //Главная страница
 @import './components/main-banner.scss';
 @import './components/numbers.scss';
@@ -13,6 +16,7 @@
 @import './global/burger-menu.scss';
 @import './global/subheader.scss';
 @import './global/footer.scss';
+@import './global/sections.scss';
 @import './global/btns.scss';
 @import './global/decorative.scss';
 @import './global/tabs.scss';
@@ -66,3 +70,7 @@
 @import './components/estimate/products.scss';
 @import './components/estimate/services.scss';
 @import './components/estimate/team.scss';
+
+//Адепт:Проект
+@import './components/project/project.scss';
+@import './components/project/program.scss';

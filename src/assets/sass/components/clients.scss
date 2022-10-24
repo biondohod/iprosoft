@@ -6,6 +6,11 @@
     }
 
     &--estimate {
+        height: 515px;
         margin-bottom: 120px;
+
+        &-adept {
+            margin-bottom: 279px;
+        }
     }
 }

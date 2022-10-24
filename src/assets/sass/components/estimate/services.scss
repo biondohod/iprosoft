@@ -10,9 +10,13 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background: #F8F8F8 url('../assets/img/company.svg') no-repeat top 32px left 24px;
+        background: #F8F8F8 url('../assets/img/company.svg') no-repeat top 24px left 24px;
         padding: 24px;
         padding-bottom: 0;
+
+        &--products {
+            background-position: top 32px left 24px;
+        }
 
         &--3row {
             padding-top: 38px;
@@ -35,6 +39,15 @@
 
             &--products {
                 padding-top: 90px;
+            }
+        }
+
+        &--youtube {
+            background-image: url('../assets/img/project/youtube.svg');
+            .estimate-services__descr {
+                padding-left: 64px;
+                background: url('../assets/img/youtube.svg') no-repeat top left;
+                background-size: 48px;
             }
         }
     }

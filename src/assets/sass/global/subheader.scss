@@ -73,6 +73,7 @@
     &--main {
         margin-top: 0;
         margin-bottom: 120px;
+        height: min-content;
 
         img {
             width: 100%;
@@ -176,5 +177,13 @@
         .breadcrumbs {
             margin-bottom: 40px;
         }
+    }
+
+    &--project {
+        background: #1D4687 url('../assets/img/project/project-bg.webp') no-repeat right;
+    }
+
+    &--estimate-adept {
+        background: #1D4687 url('../assets/img/estimate/adept-bg.webp') no-repeat right;
     }
 }

@@ -1,0 +1,73 @@
+.project-program {
+    &__title {
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__descr {
+        margin-bottom: 48px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__subtitle {
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+
+    &__list {
+        display: grid;
+        gap: 15px;
+        max-width: 665px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        &--estimate {
+            gap: 28px;
+        }
+    }
+
+    &__item {
+        min-height: 24px;
+        padding-left: 56px;
+        background: url('../assets/img/solutions/capabilities.svg') no-repeat top left;
+    }
+
+    &__we-have {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 60px;
+
+        li {
+            display: flex;
+            align-items: flex-end;
+            min-height: 80px;
+            padding-left: 96px;
+            background: url('../assets/img/company.svg') no-repeat center left;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    &__btn {
+        width: 300px;
+        padding: 28px;
+        padding-left: 80px;
+        margin: 0 auto;
+        background: #1D4687 url('../assets/img/project/project.svg') no-repeat center left 16px;
+    }
+}

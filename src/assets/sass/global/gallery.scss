@@ -14,7 +14,17 @@
         line-height: 160%;
     }
 
+    &__btn {
+        width: 428px;
+        margin: 80px auto;
+        margin-bottom: 0;
+    }
+
     &--estimate {
         margin-bottom: 114px;
+    }
+
+    &--project {
+        margin-bottom: 104px;
     }
 }

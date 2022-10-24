@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Адепт: Смета</title>
+</head>
+
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__left-col">
+                <button type="button" class="header__burger-btn">
+                    <span class="visually-hidden">Открыть бургер меню.</span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a href="index.html" class="header__logo">
+                    <img src="./assets/img/logo-main.svg" alt="Логотип информ проект." width="228" height="36">
+                </a>
+            </div>
+            <div class="header__right-col">
+                <nav class="header__navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a href="solutions.html" class="navigation__link">Продукты</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">Услуги</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">О компании</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">Пресс-центр</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="contacts.html" class="navigation__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__user-navigation">
+                    <ul class="user-navigaton__list">
+                        <li class="user-navigation__item">
+                            <a href="#" class="user-navigation__link user-navigation__link--search">
+                                <span class="visually-hidden">Поиск.</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Бургер меню. Для показа добавляется класс burger-menu- -open (без пробела) -->
+        <div class="burger-menu">
+            <div class="burger-menu__content">
+                <!-- Первый столбец -->
+                <div class="burger-menu__col">
+                    <div class="burger-menu__wrapper">
+                        <button type="button" class="burger-menu__close"></button>
+                        <a href="index.html">
+                            <img src="./assets/img/logo-main.svg" alt="Логотип информ проект." width="228" height="36">
+                        </a>
+                    </div>
+                    <div class="burger-menu__list-wrapper">
+                        <span class="burger-menu__title">Продукты и решения</span>
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a class="burger-menu__link">ПСС Техэксперт</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">ПСС Кодекс</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Техэксперт: Банк документов</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Система управления НТД</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="OSaH.html" class="burger-menu__link">Автоматизация производственной
+                                    безопасности</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Система управления требованиями</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Сметные программы</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Зарубежные и международные стандарты</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Интеграционные решения</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="burger-menu__list-wrapper">
+                        <span class="burger-menu__title">Для специалистов</span>
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="building.html" class="burger-menu__link">Строителю, проектировщику</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Инженеру, конструктору</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту по безопасности</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту лаборатории, метрологу</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту различных отраслей промышленности</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту пищевой, химической, <br>
+                                    фармацевтической промышленности</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Специалисту в области медицины и
+                                    здравоохранения</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Юристу, бухгалтеру, HR-специалисту и специалисту
+                                    <br> по госзакупкам</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Второй столбец -->
+                <div class="burger-menu__col">
+                    <div class="burger-menu__search">
+                        <input type="search" placeholder="Найти" class="burger-menu__search--input">
+                        <a href="#" class="burger-menu__search--btn">
+                            <span class="visually-hidden">Поиск.</span>
+                        </a>
+                    </div>
+                    <a href="#" class="burger-menu__title">Услуги и сервисы</a>
+                    <div class="burger-menu__list-wrapper">
+                        <span class="burger-menu__title">О компании</span>
+                        <ul class="burger-menu__list">
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">О нас</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="team.html" class="burger-menu__link">Команда</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">История</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Вакансии</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="branch.html" class="burger-menu__link">Филиальная сеть</a>
+                            </li>
+                            <li class="burger-menu__item">
+                                <a href="#" class="burger-menu__link">Корпоративная культура</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="burger-menu__title burger-menu__title--prs-centre">Пресс-центр</a>
+                </div>
+
+                <!-- Третий столбец -->
+
+                <div class="burger-menu__col">
+                    <a href="reviews.html" class="burger-menu__title burger-menu__title--quality">Отзывы</a>
+                    <a href="contacts.html" class="burger-menu__title">Контакты</a>
+                    <div class="burger-menu__phone">
+                        <a href="tel:88001004950" class="phone__link">8-800-100-495-0</a>
+                        <span class="phone__descr">Звонок по России бесплатный</span>
+                        <button class="phone__btn">Заказать звонок</button>
+                    </div>
+                    <ul class="burger-menu__social">
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--inst">
+                                <span class="visually-hidden">Мы в инстаграме.</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://t.me/iprosoft" class="social__link social__link--tg">
+                                <span class="visually-hidden">Мы в телеграме.</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://vk.com/informproektgk" class="social__link social__link--vk">
+                                <span class="visually-hidden">Мы в вконтакте.</span>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--youtube">
+                                <span class="visually-hidden">Мы на ютубе.</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="burger-menu__find-doc">
+                <div class="find-doc__decorative"></div>
+                <span class="find-doc__text">Более 25 000 000 актуальных правовых<br>и нормативно-технических
+                    документов</span>
+                <button class="find-doc__btn">Найти документ</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="subheader subheader--estimate-adept">
+            <div class="subheader__content">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a href="index.html" class="breadcrumbs__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__link breadcrumbs__link--active">Профессиональные справочные системы
+                            «Техэксперт / Кодекс»</a>
+                    </li>
+                </ul>
+                <h1 class="subheader__title project__title">Адепт: Смета</h1>
+                <span class="subheader__descr project__descr">
+                    Профессиональная программа для составления смет на строительно-монтажные работы с
+                    возможностью расчета смет на основе BIM модели. Включает в себя все способы расчета на
+                    основе актуальных ГЭСН, ФЕР, ТЕР, ведомственных сборников, фирменных расценок и является
+                    гарантией быстрых и верных расчетов.
+                </span>
+                <a href="#" class="white2orange-btn project__link">Заказать презентацию</a>
+                <div class="subheader__search phs__search">
+                    <input id="doc__search" type="search" placeholder="Найти документ">
+                    <button id="doc__btn" type="button">
+                        <span class="visually-hidden">Поиск.</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="main-content">
+            <!-- Программа «Адепт: Смета» -->
+            <section class="project__program">
+                <h2 class="project-program__title">Программа «Адепт: Смета»</h2>
+                <span class="project-program__descr">
+                    Является полностью российской разработкой, официально
+                    зарегистрирована в Реестре отечественного программного обеспечения Минкомсвязи России
+                    и имеет соответствующий сертификат.
+                </span>
+                <h3 class="project-program__subtitle">Описание системы</h3>
+                <div class="project-program__wrapper">
+                    <ul class="project-program__list project-program__list--estimate">
+                        <li class="project-program__item">
+                            Простой и интуитивно-понятный интерфейс.
+                        </li>
+                        <li class="project-program__item">
+                            Составление смет по всем актуальным базам нормативов, включенных в
+                            федеральный реестр сметных нормативов ФЕРы, ТЕРы). Большой выбор
+                            отраслевых и ведомственных сборников (Минэнерго, РЖД, реставрационные
+                            и прочие), базы НЦС/ НЦКР.
+                        </li>
+                        <li class="project-program__item">
+                            Полная база индексов Минстроя, Минэкономразвития, дополнительно
+                            подгружаются региональные индексы по статьям затрат, ведомственные
+                            индексы, сборники текущих цен.
+                        </li>
+                        <li class="project-program__item">
+                            Возможность составления смет и калькуляций, всеми возможными
+                            методами.
+                        </li>
+                    </ul>
+                    <ul class="project-program__list">
+                        <li class="project-program__item">
+                            Создание фирменных сборников баз данных для собственных расчетов.
+                        </li>
+                        <li class="project-program__item">
+                            Широкий спектр возможностей работы с материалами и механизмами в
+                            смете.
+                        </li>
+                        <li class="project-program__item">
+                            Предоставляет возможность легко и быстро подготовить сопроводительную
+                            документацию: акты КС-2 и КС-3, форма М29, журнал КС-6.
+                        </li>
+                        <li class="project-program__item">
+                            Дополнительные возможности автоматизированного расчета объемов работ
+                            и перебазировки.
+                        </li>
+                        <li class="project-program__item">
+                            Возможность выгрузки сметы из BIM модели.
+                        </li>
+                    </ul>
+                </div>
+                <ul class="project-program__we-have">
+                    <li>
+                        Свидетельство <br>
+                        о государственной <br>
+                        регистрации
+                    </li>
+                    <li>
+                        Сертификат <br>
+                        ЦЕНТРИНВЕСТ <br>
+                        проект
+                    </li>
+                    <li>
+                        Прейскурант <br>
+                        Адепт Проект
+                    </li>
+                    <li>
+                        Прейскурант <br>
+                        Адепт Проект <br>
+                        для вузов
+                    </li>
+                </ul>
+                <a href="#" download class="blue2orange-btn project-program__btn">Скачать демо версию</a>
+            </section>
+
+            <!-- Наши клиенты -->
+            <section class="clients clients--estimate-adept">
+                <div class="section__wrapper">
+                    <h2 class="section__title">Наши клиенты</h2>
+                    <div class="section__arrow"></div>
+                    <a href="#" class="section__link">Подробнее</a>
+                </div>
+                <div class="slider">
+                    <div class="slider__btns">
+                        <button type="button" class="slider__btn slider__btn--prev">
+                            <span class="visually-hidden">Предыдущий слайд</span>
+                        </button>
+                        <button type="button" class="slider__btn slider__btn--next">
+                            <span class="visually-hidden">Следующий слайд</span>
+                        </button>
+                    </div>
+                    <div class="slider__carousel slider__carousel--clients">
+                        <div class="slider__content slider__content--clients">
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/1.webp" alt="Логотип Газпром Тверь."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/6.webp" alt="Логотип БашкирЭнерго."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/2.webp" alt="Логотип Газпром Псков."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/7.webp" alt="Логотип БелкамНефть."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/3.webp" alt="Логотип Газпром Владикавказ."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/8.webp" alt="Логотип ГипроВостокНефть."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/4.webp" alt="Логотип ГСПИ РосАтом."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/9.webp" alt="Логотип МетаФакс."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/5.webp" alt="Логотип ЦПТИ РосАтом."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/10.webp" alt="Логотип БСК." class="clients__img"
+                                    width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/11.webp" alt="Логотип КРГП." class="clients__img"
+                                    width="276" height="174">
+                                <img src="./assets/img/clients-slider/16.webp" alt="Логотип РН-Северная нефть."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/12.webp" alt="Логотип ZNGUS." class="clients__img"
+                                    width="276" height="174">
+                                <img src="./assets/img/clients-slider/17.webp" alt="Логотип РосАвтодор."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/13.webp" alt="Логотип Уралхим."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/18.webp" alt="Логотип Газпром Ямал."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/14.webp" alt="Логотип Югра." class="clients__img"
+                                    width="276" height="174">
+                                <img src="./assets/img/clients-slider/19.webp" alt="Логотип УралОгрСинтез."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/15.webp" alt="Логотип УватНефтеГаз."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/20.webp" alt="Логотип." class="clients__img"
+                                    width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/21.webp" alt="Логотип РосСети."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/26.webp" alt="Логотип ATX." class="clients__img"
+                                    width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/22.webp" alt="Логотип Ростелеком."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/27.webp" alt="Логотип Сельмаш."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/23.webp" alt="Логотип РосГвардия."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/28.webp" alt="Логотип." class="clients__img"
+                                    width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/24.webp" alt="Логотип КомунЭнерго."
+                                    class="clients__img" width="276" height="174">
+                                <img src="./assets/img/clients-slider/29.webp" alt="Логотип." class="clients__img"
+                                    width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/25.webp" alt="Логотип." class="clients__img"
+                                    width="276" height="174">
+                                <img src="./assets/img/clients-slider/30.webp" alt="Логотип." class="clients__img"
+                                    width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/31.webp" alt="Логотип ЦНИИОИЗ."
+                                    class="clients__img" width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/32.webp" alt="Логотип tecon." class="clients__img"
+                                    width="276" height="174">
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/clients-slider/33.webp" alt="Логотип teкон." class="clients__img"
+                                    width="276" height="174">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Отзывы и рекомендации -->
+            <section class="reviews-block reviews-block--project">
+                <div class="section__wrapper">
+                    <h2 class="section__title">Отзывы и рекомендации</h2>
+                    <div class="section__arrow"></div>
+                    <a href="reviews.html" class="section__link">Подробнее</a>
+                </div>
+                <div class="tabs">
+                    <div class="tabs__header">
+                        <div class="tabs__name tabs__name--active">От компаний</div>
+                        <div class="tabs__name">Оставить отзыв</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="slider">
+                            <div class="slider__btns">
+                                <button type="button" class="slider__btn slider__btn--prev">
+                                    <span class="visually-hidden">Предыдущий слайд</span>
+                                </button>
+                                <button type="button" class="slider__btn slider__btn--next">
+                                    <span class="visually-hidden">Следующий слайд</span>
+                                </button>
+                            </div>
+                            <div class="slider__carousel slider__carousel--reviews">
+                                <div class="slider__content slider__content--reviews">
+                                    <div class="slider__item ">
+                                        <img src="./assets/img/review-1.webp" alt="Отзыв." class="slider__img"
+                                            width="309" height="437">
+                                    </div>
+                                    <div class="slider__item ">
+                                        <img src="./assets/img/review-2.webp" alt="Отзыв." class="slider__img"
+                                            width="309" height="437">
+                                    </div>
+                                    <div class="slider__item ">
+                                        <img src="./assets/img/review-3.webp" alt="Отзыв." class="slider__img"
+                                            width="309" height="437">
+                                    </div>
+                                    <div class="slider__item ">
+                                        <img src="./assets/img/review-4.webp" alt="Отзыв." class="slider__img"
+                                            width="309" height="437">
+                                    </div>
+                                    <div class="slider__item">
+                                        <img src="./assets/img/review-1.webp" alt="Отзыв." class="slider__img"
+                                            width="309" height="437">
+                                    </div>
+                                    <div class="slider__item">
+                                        <img src="./assets/img/review-2.webp" alt="Отзыв." class="slider__img"
+                                            width="309" height="437">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Баннер прибитый к правому краю экрана -->
+            <div class="right-banner right-banner--person right-banner--person--estimate">
+                <div
+                    class="right-banner__decorative right-banner__decorative--person right-banner__decorative--person--kokovihin">
+                </div>
+                <div class="right-banner__wrapper">
+                    <div class="right-banner__wrapper__column">
+                        <span class="right-banner__title right-banner__title--person">
+                            Коковихин Иван
+                        </span>
+                        <span class="right-banner__descr">
+                            Руководитель отдела продаж, направление
+                            строительно-монтажные работы
+                        </span>
+                    </div>
+
+                    <div class="right-banner__wrapper__column">
+                        <span class="right-banner__more">
+                            Узнать подробнее <br>
+                            о программе «Адепт: Смета»
+                        </span>
+                        <div class="right-banner__contacts">
+                            <a href="mailto:ikokovikhin@iprosoft.ru"
+                                class="right-banner__link--person right-banner__link--person--mail">ikokovikhin@iprosoft.ru</a>
+                            <a href="tel:+79638889696"
+                                class="right-banner__link--person right-banner__link--person--phone">+7(963)888-96-96</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Услуги и сервисы -->
+            <section class="estimate__services">
+                <h2 class="estimate__section-title">Услуги и сервисы</h2>
+                <ul class="estimate-services__list">
+                    <li class="estimate-services__item estimate-services__item--2row">
+                        <h3 class="estimate-services__name">
+                            Индивидуальное <br>
+                            обучение программе
+                        </h3>
+                        <span class="estimate-services__descr">
+                            Мы продемонстрируем все возможности программ и расскажем об ее особенностях. Формат-
+                            дистанционно.
+                            По окончанию обучения выдается именной сертификат уверенного пользователя программы.
+                        </span>
+                    </li>
+                    <li class="estimate-services__item estimate-services__item--2row">
+                        <h3 class="estimate-services__name">
+                            Заказ нормативных <br>
+                            документов
+                        </h3>
+                        <span class="estimate-services__descr">
+                            Выделенный номер для действующих и потенциальных клиентов Сметного центра, обеспечивает
+                            оперативность коммуникаций. Звонок по России бесплатный.
+                        </span>
+                    </li>
+                    <li class="estimate-services__item estimate-services__item--2row">
+                        <h3 class="estimate-services__name">
+                            Индивидуальное <br>
+                            обучение программе
+                        </h3>
+                        <span class="estimate-services__descr">
+                            Возможность заказать и получить бесплатно любой искомый нормативно-технический документ, с
+                            описанием его статуса (действующий, отмененный и прочее).
+                        </span>
+                    </li>
+                    <li class="estimate-services__item estimate-services__item--2row">
+                        <h3 class="estimate-services__name">
+                            Задай вопрос разработчику <br>
+                            справочников
+                        </h3>
+                        <span class="estimate-services__descr">
+                            Самые актуальные, горячие новости вашей профессиональной отрасли. Наши специалисты
+                            еженедельно
+                            делятся полезной информацией, благодаря которой вы всегда будете в курсе касающихся вас
+                            изменений в
+                            области ценообразования в проектировании и строительстве.
+                        </span>
+                    </li>
+                    <li class="estimate-services__item estimate-services__item--3row">
+                        <h3 class="estimate-services__name">
+                            Курсы повышения <br>
+                            квалификация в сметном <br>
+                            ценообразовании
+                        </h3>
+                        <span class="estimate-services__descr">
+                            На базе нашего учебного центра, вы можете пройти курсы по различным направлениям
+                            строительной
+                            отрасли (ценообразование в строительстве, проектно-изыскательские работы и т.д.). В течение
+                            обучения
+                            помимо теоритических знаний, также отрабатываются практические навыки на ПО «Адепт».
+                        </span>
+                    </li>
+                    <li class="estimate-services__item estimate-services__item--2row">
+                        <h3 class="estimate-services__name">
+                            Обновление <br>
+                            версий программ
+                        </h3>
+                        <span class="estimate-services__descr">
+                            С каждой новой версией функционал программ совершенствуется, а нормативная база пополняется
+                            новыми
+                            документами. Своевременное обновление версии программы позволяет быть в курсе и
+                            оптимизировать
+                            затраты организации.
+                        </span>
+                    </li>
+                    <li class="estimate-services__item estimate-services__item--2row">
+                        <h3 class="estimate-services__name">
+                            Социальные сети <br>
+                            Сметного центра
+                        </h3>
+                        <a href="#" class="estimate-services__link estimate-services__link--youtube">YouTube–канал</a>
+                        <span class="estimate-services__descr estimate-services__descr--mb0">
+                            Видеоролики по расчетам смет на проектно-изыскательские работы, обзоры уникальных
+                            справочников и
+                            методов расчета, обзоры новых версий.
+                        </span>
+                        <div class="estimate-services__link-wrapper">
+                            <a href="https://vk.com/informproektgk"
+                                class="estimate-services__link estimate-services__link--vk">Группа «Вконтакте»</a>
+                            <a href="https://t.me/iprosoft"
+                                class="estimate-services__link estimate-services__link--tg">Телеграмм-канал</a>
+                        </div>
+                        <span class="estimate-services__descr">
+                            Самые актуальные новости в области строительно-
+                            монтажных работ, BIM моделирования
+                        </span>
+                    </li>
+                    <li class="estimate-services__item estimate-services__item--1row">
+                        <h3 class="estimate-services__name">
+                            Проверка&nbsp;смет&nbsp;/&nbsp;экспертиза
+                        </h3>
+                        <span class="estimate-services__descr">
+                            Мы предоставляем услуги по негосударственной экспертизе сметной документации, помогаем в
+                            составлении
+                            смет. Мы успешно консультируем наших клиентов уже более 19 лет. Большинство вопросов
+                            закрываются в
+                            рамках одного звонка.
+                        </span>
+                    </li>
+                    <li class="estimate-services__item estimate-services__item--1row">
+                        <h3 class="estimate-services__name">
+                            Техническая поддержка
+                        </h3>
+                        <span class="estimate-services__descr">
+                            При необходимости, оперативно восстановим работоспособность приобретенной программы, а
+                            также, по
+                            запросу, организуем ее переустановку, в том числе на другой компьютер, без потери данных.
+                        </span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Баннер на всю длину экрана -->
+            <section class="center-banner center-banner--estimate">
+                <div class="center-banner__content">
+                    <h2 class="center-banner__title">Выбери услугу</h2>
+                    <form action="" method="post" class="center-banner__form">
+                        <select name="service" id="service-selector">
+                            <option value="0">Выбрать из 10 услуг</option>
+                            <option value="1">1 услуга</option>
+                            <option value="2">2 услуга</option>
+                            <option value="10">10 услуга</option>
+                        </select>
+                        <div class="center-banner__select">
+                            <div class="center-banner__options">
+                                <div class="center-banner__option center-banner__option--selected" data-value="0">
+                                    Выбрать из 9 услуг</div>
+                                <div class="center-banner__option" data-value="1">1 услуга</div>
+                                <div class="center-banner__option" data-value="2">2 услуга</div>
+                                <div class="center-banner__option" data-value="9">9 услуга</div>
+                            </div>
+                        </div>
+                        <input type="text" name="company-name" class="service-input" required
+                            placeholder="Название компании*" autocomplete="off">
+                        <input type="text" name="commentary" class="service-input" required placeholder="Комментарии*"
+                            autocomplete="off">
+                        <input type="text" name="full-name" class="service-input" required placeholder="ФИО*"
+                            autocomplete="off">
+                        <input type="tel" name="tel" class="service-input" required placeholder="Телефон*"
+                            autocomplete="off">
+                        <input type="email" name="email" class="service-input" required placeholder="Почта*"
+                            autocomplete="off">
+                        <button class="white2orange-btn center-banner__btn" type="submit">Отправить заявку</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="gallery gallery--project">
+                <div class="section__wrapper">
+                    <h2 class="section__title">Фотогалерея</h2>
+                </div>
+                <div class="slider">
+                    <div class="slider__btns">
+                        <button type="button" class="slider__btn slider__btn--prev">
+                            <span class="visually-hidden">Предыдущий слайд</span>
+                        </button>
+                        <button type="button" class="slider__btn slider__btn--next">
+                            <span class="visually-hidden">Следующий слайд</span>
+                        </button>
+                    </div>
+                    <div class="slider__carousel slider__carousel--gallery">
+                        <div class="slider__content slider__content--gallery">
+                            <div class="slider__item">
+                                <img src="./assets/img/gallery/gallery.webp" alt="Школа сметчиков." class="slider__img"
+                                    width="429" height="286">
+                                <span class="gallery__name">Школа сметчиков</span>
+                                <span class="gallery__descr">
+                                    Обучающий курс «Ценообразование и сметное <br> нормирование в строительстве»
+                                </span>
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/gallery/gallery.webp"
+                                    alt="Отдел сбыта, направление проектно-изыскательских работ." class="slider__img"
+                                    width="429" height="286">
+                                <span class="gallery__name">Отдел сбыта, направление проектно-изыскательских
+                                    работ</span>
+                                <span class="gallery__descr">
+                                    Отдел занимающийся демонстрациями программы Адепт: Проект и проведением
+                                    образовательных курсов на ПИР
+                                </span>
+                            </div>
+                            <div class="slider__item">
+                                <img src="./assets/img/gallery/gallery.webp" alt="Рабочий визит." class="slider__img"
+                                    width="429" height="286">
+                                <span class="gallery__name">Рабочий визит</span>
+                                <span class="gallery__descr">
+                                    Рабочая встреча руководителей на территории разработчика сметных программ ГК
+                                    «Адепт» г. Нижний Новгород
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="gallery__btn blue2orange-btn">Узнать подробнее о Сметном центре</a>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="right-banner right-banner--mailing">
+            <div class="right-banner__decorative right-banner__decorative--envelope"></div>
+            <span class="right-banner__title">Подписаться <br> на новостную рассылку</span>
+            <a href="#" class="white2blue-btn">Подписаться</a>
+        </div>
+        <div class="footer__content">
+            <a class="footer__logo">
+                <img src="./assets/img/logo-footer.svg" alt="Логотип Информ проект." width="380" height="60">
+            </a>
+            <div class="footer__wrapper">
+                <div class="footer__contacts">
+                    <h2 class="visually-hidden">Контакты</h2>
+                    <div class="footer__address">
+                        610035, г. Киров, <br>
+                        ул. Воровского, д. 78А, офис 805
+                    </div>
+                    <div class="footer__phone">
+                        <a href="tel:88001004950">8-800-100-495-0</a>
+                        звонок по России — бесплатный
+                    </div>
+                    <div class="footer__mail">
+                        <a href="mailto:hotline@iprosoft.ru">hotline@iprosoft.ru</a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="https://vk.com/informproektgk" class="footer__social--vk">
+                            vk.com/informproektgk
+                        </a>
+                        <a href="https://t.me/iprosoft" class="footer__social--tg">
+                            t.me/iprosoft
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="visually-hidden">Навигация по сайту.</h2>
+                    <ul class="footer__navigation">
+                        <li class="footer__navigation__item">
+                            <a href="solutions.html">Продукты и решения</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="#">Для специалистов</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="#">Услуги и сервисы</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="#">О компании</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="#">Пресс-центр</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="reviews.html">Отзывы</a>
+                        </li>
+                        <li class="footer__navigation__item">
+                            <a href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">©2021 г. Все права защищены.</div>
+        </div>
+    </footer>
+
+    <div class="decorative__left decorative__left--reviews"></div>
+    <div class="decorative__right decorative__right--estimate-adept"></div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -17,6 +17,10 @@
         font-size: 32px;
         line-height: 130%;
         color: #FFFFFF;
+
+        &--person {
+            margin-bottom: 16px;
+        }
     }
 
     .white2blue-btn {
@@ -26,6 +30,7 @@
     &__decorative {
         position: absolute;
         top: -85px;
+
         &--a4 {
             left: -63px;
             width: 350px;
@@ -45,6 +50,24 @@
             height: 350px;
             left: -57px;
             background: url('../assets/img/right-banner-speaker.webp') no-repeat;
+        }
+
+        &--person {
+            top: -40px;
+            left: -2px;
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+
+            &--porina {
+                background: url('../assets/img/team/porina.webp') no-repeat;
+                background-size: 260px;
+            }
+
+            &--kokovihin {
+                background: url('../assets/img/team/kokovihin.webp') no-repeat;
+                background-size: 260px;
+            }
         }
     }
 
@@ -82,5 +105,86 @@
 
     &--reviews {
         top: 1890px;
+    }
+
+    &--person {
+        padding: 32px;
+        padding-left: 290px;
+        padding-right: 260px;
+
+        &--project {
+            top: 3252px;
+        }
+
+        &--estimate {
+            top: 3326px;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        &__column {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__descr {
+        max-width: 380px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    &__more {
+        margin-bottom: 32px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+
+    &__contacts {
+        display: flex;
+        gap: 24px;
+    }
+
+    &__link--person {
+        position: relative;
+        padding-left: 40px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+
+        &::before {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            content: "";
+        }
+
+        &--mail {
+            &::before {
+                background: url('../assets/img/mail-white.svg') no-repeat center left;
+            }
+        }
+
+        &--phone {
+            &::before {
+                background: url('../assets/img/phone-white.svg') no-repeat center left;
+                transform: translateY(-50%) rotate(-90deg);
+            }
+
+        }
     }
 }
