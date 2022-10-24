@@ -1,0 +1,60 @@
+.zms-advantages {
+    &__title {
+        margin-bottom: 65px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__list {
+        counter-reset: myCounter;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 16px;
+        column-gap: 85px;
+    }
+
+    &__item {
+        position: relative;
+        display: flex;
+        min-height: 182px;
+
+        &::before {
+            position: relative;
+            top: -41px;
+            height: 182px;
+            margin-right: 32px;
+            font-weight: 100;
+            font-size: 140px;
+            line-height: 130%;
+            color: #1D4687;
+            counter-increment: myCounter;
+            content: counter(myCounter);
+
+        }
+
+        &:nth-child(1) {
+            padding-left: 41px;
+        }
+    }
+
+    &__name {
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #EA5B21;
+        text-transform: uppercase;
+    }
+
+    &__descr {
+        max-width: 296px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.zms__advantages {
+    margin-bottom: 693px;
+}

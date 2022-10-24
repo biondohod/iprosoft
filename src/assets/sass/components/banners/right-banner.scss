@@ -68,6 +68,11 @@
                 background: url('../assets/img/team/kokovihin.webp') no-repeat;
                 background-size: 260px;
             }
+
+            &--melnikova {
+                background: url('../assets/img/team/melnikova.webp') no-repeat;
+                background-size: 260px;
+            }
         }
     }
 
@@ -118,6 +123,10 @@
 
         &--estimate {
             top: 3326px;
+        }
+
+        &--zms {
+            top: 1534px;
         }
     }
 

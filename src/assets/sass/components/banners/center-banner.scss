@@ -114,7 +114,12 @@
         top: 4745px;
     }
 
-    &--estimate {
+    &--estimate-adept {
         top: 4940px;
+    }
+
+    &--zms {
+        top: 2589px;
+        background: #1D4687 url('../assets/img/zms/form.webp') no-repeat center;
     }
 }

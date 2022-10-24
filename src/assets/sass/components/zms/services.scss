@@ -1,0 +1,39 @@
+.zms-services {
+    &__title {
+        margin-bottom: 42px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 666px 666px;
+        gap: 48px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        padding-left: 148px;
+        background: #F8F8F8 url('../assets/img/company.svg') no-repeat top 24px left 24px;
+    }
+
+    &__name {
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    &__descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.zms__services {
+    margin-bottom: 500px;
+}
