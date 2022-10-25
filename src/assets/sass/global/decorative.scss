@@ -108,6 +108,17 @@
                 width: 777px;
             }
         }
+
+        &--bank {
+            bottom: 3821px;
+            width: 712px;
+            height: 902px;
+
+            &::before {
+                width: 712px;
+                height: 902px;
+            }
+        }
     }
 
     &__left {

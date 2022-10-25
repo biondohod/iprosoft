@@ -68,11 +68,27 @@
         &--osah {
             top: 1256px;
         }
+
+        &--bank {
+            top: 2554px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 24px 0 30px 331px;
+
+            .left-banner__title {
+                max-width: 810px;
+            }
+
+            .white2blue-btn {
+                width: 406px;
+                text-transform: uppercase;
+            }
+        }
     }
 
     &--calc {
         top: 3742px;
-
-
     }
 }
