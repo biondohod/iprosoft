@@ -25,7 +25,8 @@
 
     &__decorative {
         position: absolute;
-        top: 1190px;
+        z-index: -10;
+        top: 428px;
         right: 0;
         width: 1045px;
         height: 400px;

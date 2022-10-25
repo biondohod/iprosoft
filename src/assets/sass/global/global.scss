@@ -77,6 +77,16 @@ main {
     flex-grow: 1;
 }
 
+.main {
+    position: relative;
+    max-width: 1900px;
+    margin: 0 auto;
+
+    &--bank {
+        padding-top: 60px;
+    }
+}
+
 
 .main-content {
     max-width: 1480px;

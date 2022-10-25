@@ -3,6 +3,7 @@
 <html lang="ru">
 
 <head>
+    <meta name="robots" content="noindex, nofollow"/>
     <link rel="stylesheet" href="./css/style.min.css">
     <title>Контакты</title>
 </head>
@@ -74,22 +75,23 @@
                                 <a href="#" class="burger-menu__link">ПСС Кодекс</a>
                             </li>
                             <li class="burger-menu__item">
-                                <a href="#" class="burger-menu__link">Техэксперт: Банк документов</a>
+                                <a href="bank.html" class="burger-menu__link">Техэксперт: Банк документов</a>
                             </li>
                             <li class="burger-menu__item">
                                 <a href="#" class="burger-menu__link">Система управления НТД</a>
                             </li>
                             <li class="burger-menu__item">
-                                <a href="OSaH.html" class="burger-menu__link">Автоматизация производственной безопасности</a>
+                                <a href="OSaH.html" class="burger-menu__link">Автоматизация производственной
+                                    безопасности</a>
                             </li>
                             <li class="burger-menu__item">
                                 <a href="#" class="burger-menu__link">Система управления требованиями</a>
                             </li>
                             <li class="burger-menu__item">
-                                <a href="#" class="burger-menu__link">Сметные программы</a>
+                                <a href="estimate.html" class="burger-menu__link">Сметные программы</a>
                             </li>
                             <li class="burger-menu__item">
-                                <a href="#" class="burger-menu__link">Зарубежные и международные стандарты</a>
+                                <a href="zms.html" class="burger-menu__link">Зарубежные и международные стандарты</a>
                             </li>
                             <li class="burger-menu__item">
                                 <a href="#" class="burger-menu__link">Интеграционные решения</a>
@@ -268,67 +270,70 @@
             </div>
         </section>
 
-        <div class="main-content">
-            <!-- филиалы на карте -->
-            <section class="branch">
-                <h2 class="visually-hidden">Филиалы на карте.</h2>
-                <img src="./assets/img/branch/map.webp" alt="Карта России." class="branch__map" width="1380"
-                    height="720">
-                <div class="branch__list">
-                    <img src="./assets/img/branch/map-pin.svg" alt="Показать информацию о филиале." class="branch__pin"
-                        width="24" height="24">
-                    <div class="branch__info">
-                        <img src="./assets/img/branch/branch.webp" alt="Филиал." class="branch__img">
-                        <span class="branch__name">Юридическое лицо ООО&nbsp;«Информпроект»</span>
-                        <span class="branch__address">610035, г. Киров, ул. <br> Воровского 78а, 7-8 этаж </span>
-                        <ul class="branch__phone-list">
+        <div class="main">
+            <div class="main-content">
+                <!-- филиалы на карте -->
+                <section class="branch">
+                    <h2 class="visually-hidden">Филиалы на карте.</h2>
+                    <img src="./assets/img/branch/map.webp" alt="Карта России." class="branch__map" width="1380"
+                        height="720">
+                    <div class="branch__list">
+                        <img src="./assets/img/branch/map-pin.svg" alt="Показать информацию о филиале."
+                            class="branch__pin" width="24" height="24">
+                        <div class="branch__info">
+                            <img src="./assets/img/branch/branch.webp" alt="Филиал." class="branch__img">
+                            <span class="branch__name">Юридическое лицо ООО&nbsp;«Информпроект»</span>
+                            <span class="branch__address">610035, г. Киров, ул. <br> Воровского 78а, 7-8 этаж </span>
+                            <ul class="branch__phone-list">
+                                <li>
+                                    <a href="tel:+78332222500" class="branch__phone">+7 (8332) 222-500</a>
+                                </li>
+                                <li>
+                                    <a href="tel:+78332714147" class="branch__phone">+7 (8332) 714-147 - отдел сбыта</a>
+                                </li>
+                            </ul>
+                            <a href="mailto:hotline@iprosoft.ru" class="branch__mail">hotline@iprosoft.ru</a>
+                        </div>
+                    </div>
+                    <a href="#" class="blue2orange-btn">Заказать</a>
+                </section>
+
+                <!-- список филиалов -->
+                <section class="contacts-tabs">
+                    <h2 class="visually-hidden">Список филиалов.</h2>
+                    <ul class="contacts-tabs__header">
+                        <li class="contacts-tabs__item contacts-tabs__item--active">Казань</li>
+                        <li class="contacts-tabs__item">Краснодар</li>
+                        <li class="contacts-tabs__item">Киров</li>
+                        <li class="contacts-tabs__item">Ижевск</li>
+                        <li class="contacts-tabs__item">Тюмень</li>
+                        <li class="contacts-tabs__item">Ростов-на-Дону</li>
+                        <li class="contacts-tabs__item">Новосибирск</li>
+                    </ul>
+                    <div class="contacts-tabs__content">
+                        <h3 class="contacts-tabs__name">Казань</h3>
+                        <span class="contacts-tabs__address">
+                            420045, г. Казань, Н. Ершова, д.29-б, БЦ Татария, оф. 701-703
+                        </span>
+                        <ul class="contacts-tabs__phone-list">
                             <li>
-                                <a href="tel:+78332222500" class="branch__phone">+7 (8332) 222-500</a>
+                                <a href="tel:+78435672223" class="contacts-tabs__phone">+7 (843) 567-22-23</a>
                             </li>
                             <li>
-                                <a href="tel:+78332714147" class="branch__phone">+7 (8332) 714-147 - отдел сбыта</a>
+                                <a href="tel:+78435672224" class="contacts-tabs__phone">+7 (843) 567-22-24</a>
+                            </li>
+                            <li>
+                                <a href="tel:+78435672225" class="contacts-tabs__phone">+7 (843) 567-22-25</a>
+                            </li>
+                            <li>
+                                <a href="tel:+78435672232" class="contacts-tabs__phone">+7 (843) 567-22-32</a>
                             </li>
                         </ul>
-                        <a href="mailto:hotline@iprosoft.ru" class="branch__mail">hotline@iprosoft.ru</a>
+                        <a href="mailto:kazan@iprosoft.ru" class="contacts-tabs__mail">kazan@iprosoft.ru</a>
                     </div>
-                </div>
-                <a href="#" class="blue2orange-btn">Заказать</a>
-            </section>
-
-            <!-- список филиалов -->
-            <section class="contacts-tabs">
-                <h2 class="visually-hidden">Список филиалов.</h2>
-                <ul class="contacts-tabs__header">
-                    <li class="contacts-tabs__item contacts-tabs__item--active">Казань</li>
-                    <li class="contacts-tabs__item">Краснодар</li>
-                    <li class="contacts-tabs__item">Киров</li>
-                    <li class="contacts-tabs__item">Ижевск</li>
-                    <li class="contacts-tabs__item">Тюмень</li>
-                    <li class="contacts-tabs__item">Ростов-на-Дону</li>
-                    <li class="contacts-tabs__item">Новосибирск</li>
-                </ul>
-                <div class="contacts-tabs__content">
-                    <h3 class="contacts-tabs__name">Казань</h3>
-                    <span class="contacts-tabs__address">
-                        420045, г. Казань, Н. Ершова, д.29-б, БЦ Татария, оф. 701-703
-                    </span>
-                    <ul class="contacts-tabs__phone-list">
-                        <li>
-                            <a href="tel:+78435672223" class="contacts-tabs__phone">+7 (843) 567-22-23</a>
-                        </li>
-                        <li>
-                            <a href="tel:+78435672224" class="contacts-tabs__phone">+7 (843) 567-22-24</a>
-                        </li>
-                        <li>
-                            <a href="tel:+78435672225" class="contacts-tabs__phone">+7 (843) 567-22-25</a>
-                        </li>
-                        <li>
-                            <a href="tel:+78435672232" class="contacts-tabs__phone">+7 (843) 567-22-32</a>
-                        </li>
-                    </ul>
-                    <a href="mailto:kazan@iprosoft.ru" class="contacts-tabs__mail">kazan@iprosoft.ru</a>
-                </div>
-            </section>
+                </section>
+            </div>
+            <div class="decorative__left decorative__left--contacts"></div>
         </div>
     </main>
 
@@ -391,7 +396,6 @@
             <div class="footer__copyright">©2021 г. Все права защищены.</div>
         </div>
     </footer>
-    <div class="decorative__left decorative__left--contacts"></div>
     <script src="./js/index.js"></script>
 </body>
 
