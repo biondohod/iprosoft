@@ -71,9 +71,20 @@
     }
 
     &--main {
+        position: relative;
         height: 900px;
         margin-bottom: 120px;
-        background: #1D4687 url('../assets/img/banner.webp') no-repeat center;
+        background: #1D4687;
+
+        .subheader__video {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 100%;
+            max-width: 1900px;
+            max-height: 900px;
+            transform: translateX(-50%);
+        }
     }
 
     &--reviews {
