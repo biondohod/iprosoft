@@ -14,19 +14,22 @@
         padding-bottom: 26px;
         background-color: #F8F8F8;
 
-        &:nth-child(1) {
+        &:nth-child(1n) {
             background: #F8F8F8 url('../assets/img/PHS/oil.svg') no-repeat bottom 32px right 32px;
         }
 
-        &:nth-child(2) {
+        &:nth-child(2n) {
             background: #F8F8F8 url('../assets/img/PHS/metallurgy.svg') no-repeat bottom 32px right 32px;
+            &::before {
+                background-color: #1D4687;
+            }
         }
 
-        &:nth-child(3) {
+        &:nth-child(3n) {
             background: #F8F8F8 url('../assets/img/PHS/mechanical-engineering.svg') no-repeat bottom 32px right 32px;
         }
 
-        &:nth-child(4) {
+        &:nth-child(4n) {
             background: #F8F8F8 url('../assets/img/PHS/norms.svg') no-repeat bottom 32px right 32px;
         }
 

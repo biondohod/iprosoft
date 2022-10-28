@@ -105,6 +105,7 @@
             border: none;
             border-bottom: 1px solid #FFFFFF;
             background-color: transparent;
+            font-family: "Montserrat",sans-serif;
             font-weight: 500;
             font-size: 16px;
             line-height: 24px;
@@ -115,10 +116,18 @@
             }
 
             &[type="search"]::-webkit-input-placeholder {
+                font-family: "Montserrat",sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
                 color: #FFF;
             }
 
             &[type="search"]::-moz-placeholder {
+                font-family: "Montserrat",sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
                 color: #FFF;
             }
         }
@@ -269,6 +278,7 @@
         height: 40px;
         border: none;
         background-color: #EA5B21;
+        font-family: "Montserrat",sans-serif;
         font-weight: 700;
         font-size: 12px;
         line-height: 14px;
