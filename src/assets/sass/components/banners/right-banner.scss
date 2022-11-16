@@ -74,6 +74,15 @@
                 background-size: 260px;
             }
         }
+
+        &--vacancy {
+            top: -85px;
+            left: -57px;
+            width: 354px;
+            height: 350px;
+            background: url('../assets/img/right-banner-vacancy.webp') no-repeat center;
+            background-size: 354px 350px;
+        }
     }
 
     &::before {
@@ -127,6 +136,15 @@
 
         &--zms {
             top: 774px;
+        }
+    }
+
+    &--vacancy {
+        top: 85px;
+        padding-left: 368px;
+
+        .white2blue-btn {
+            width: 222px;
         }
     }
 

@@ -27,4 +27,17 @@
     &--project {
         margin-bottom: 104px;
     }
+
+    &--culture {
+        margin-bottom: 120px;
+    }
+
+    &--corporate {
+        margin-bottom: 171px;
+
+        .gallery__name {
+            display: block;
+            max-width: none;
+        }
+    }
 }

@@ -119,6 +119,17 @@
                 height: 902px;
             }
         }
+
+        &--culture {
+            bottom: 1371px;
+            width: 777px;
+            height: 1307px;
+
+            &::before {
+                height: 1307px;
+                width: 777px;
+            }
+        }
     }
 
     &__left {
@@ -208,6 +219,15 @@
 
         &--estimate {
             top: 4701px;
+            height: 1307px;
+
+            &::before {
+                height: 1307px;
+            }
+        }
+
+        &--culture {
+            top: -172px;
             height: 1307px;
 
             &::before {

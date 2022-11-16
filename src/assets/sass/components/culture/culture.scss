@@ -1,0 +1,44 @@
+.culture {
+    margin-bottom: 120px;
+
+    &__title {
+        margin-bottom: 48px;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 130%;
+        color: #1D4687;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__descr {
+        display: block;
+        max-width: 487px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    &__list {
+        display: grid;
+        gap: 22px;
+        justify-content: center;
+        margin-bottom: 142px;
+
+        li {
+            min-height: 24px;
+        }
+    }
+
+    &__textblock {
+        display: grid;
+        grid-template-columns: 666px 666px;
+        gap: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+}
