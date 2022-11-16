@@ -57,7 +57,8 @@
             }
         }
 
-        button {
+        button,
+        a {
             position: absolute;
             top: 50%;
             right: 12px;
@@ -205,5 +206,13 @@
         height: 4157px;
         margin-bottom: -2800px;
         background: #FFF url('../assets/img/culture/culture-bg.webp') no-repeat center;
+    }
+
+    &--files-main {
+        background: #1D4687 url('../assets/img/files/files-main-bg.webp') no-repeat center;
+    }
+
+    &--files {
+        background: #1D4687 url('../assets/img/files/files-bg.webp') no-repeat center;
     }
 }

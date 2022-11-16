@@ -1,0 +1,43 @@
+.files-search {
+    max-width: 952px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+
+    &__title {
+        display: block;
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__list {
+        display: grid;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    &__item {
+        display: grid;
+        gap: 8px;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000;
+        text-decoration: none;
+    }
+
+    &__descr {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__btn {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}

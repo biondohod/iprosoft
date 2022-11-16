@@ -1,0 +1,18 @@
+.files-main {
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+        max-width: 1150px;
+        margin: 0 auto;
+        margin-bottom: 590px;
+    }
+
+    &__name {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

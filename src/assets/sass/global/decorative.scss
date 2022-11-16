@@ -130,6 +130,28 @@
                 width: 777px;
             }
         }
+
+        &--files-main {
+            bottom: 832px;
+            width: 777px;
+            height: 1307px;
+
+            &::before {
+                height: 1307px;
+                width: 777px;
+            }
+        }
+
+        &--files-search {
+            bottom: 532px;
+            width: 777px;
+            height: 1307px;
+
+            &::before {
+                height: 1307px;
+                width: 777px;
+            }
+        }
     }
 
     &__left {

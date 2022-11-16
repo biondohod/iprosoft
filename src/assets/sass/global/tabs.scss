@@ -58,4 +58,20 @@
             margin-right: 60px;
         }
     }
+
+    &__content-item {
+        display: none;
+
+        &--active {
+            display: block;
+        }
+    }
+
+    &--files {
+        margin-bottom: 0;
+
+        .tabs__name::after {
+            width: 100%;
+        }
+    }
 }

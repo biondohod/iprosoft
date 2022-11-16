@@ -36,6 +36,14 @@
             height: 350px;
             background: url('../assets/img/calc.webp') no-repeat center;
         }
+
+        &--files {
+            top: -85px;
+            right: -63px;
+            width: 350px;
+            height: 350px;
+            background: url('../assets/img/right-banner-a4.webp') no-repeat center;
+        }
     }
 
     &::before {
@@ -90,5 +98,18 @@
 
     &--calc {
         top: 2982px;
+    }
+
+    &--files {
+        top: 542px;
+        padding: 48px 260px;
+    }
+
+    &--bottriangle {
+        &::before {
+            border-top: none;
+            border-bottom: 180px solid #EA5B21;
+            border-left: 106px solid transparent;
+        }
     }
 }
