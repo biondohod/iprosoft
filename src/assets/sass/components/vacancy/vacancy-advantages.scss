@@ -1,0 +1,65 @@
+.vacancy-advantages {
+    &__list {
+        max-width: 782px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    &__item {
+        position: relative;
+        display: flex;
+        gap: 16px;
+        align-items: center;
+
+        &--more,
+        &--less {
+            &::before {
+                position: absolute;
+                top: 17px;
+                left: 48px;
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 160%;
+                content: "";
+            }
+        }
+
+        &--more {
+            &::before {
+                content: "более";
+            }
+        }
+
+        &--less {
+            &::before {
+                content: "менее";
+            }
+        }
+    }
+
+    &__digits {
+        display: flex;
+        align-items: baseline;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 130%;
+        color: #1D4687;
+
+        span {
+            font-size: 44px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 44px;
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+}

@@ -9,3 +9,12 @@
         margin-bottom: 500px;
     }
 }
+
+.vacancy-form {
+    &__title {
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+}

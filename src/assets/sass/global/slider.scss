@@ -3,6 +3,19 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        &--vacancy {
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 1380px;
+
+            .slider__btn {
+                margin-bottom: 0;
+            }
+        }
     }
 
     &__btn {
@@ -24,6 +37,11 @@
         &--quality,
         &--reviews {
             filter: drop-shadow(0px 16px 26px rgba(0, 0, 0, 0.07));
+        }
+
+        &--vacancy {
+            width: 1142px;
+            margin: 0 auto;
         }
     }
 
@@ -59,6 +77,15 @@
                 display: flex;
                 flex-direction: column;
                 min-width: 429px;
+            }
+        }
+
+        &--vacancy {
+            display: flex;
+            gap: 48px;
+
+            .slider__item {
+                min-width: 1142px;
             }
         }
     }

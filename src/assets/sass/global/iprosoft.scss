@@ -1,0 +1,88 @@
+.iprosoft {
+    &__form {
+        display: grid;
+        gap: 16px;
+    }
+
+    &__input {
+        padding: 13px 10px;
+        border: 1px solid #CBCBCB;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        color: #CBCBCB;
+        transition: 0.4s border, 0.4s color;
+
+        &::placeholder {
+            color: #CBCBCB;
+            transition: 0.4s color;
+        }
+
+        &:hover,
+        &:focus-visible {
+            outline: none;
+            border-color: #000;
+            color: #000;
+
+            &::placeholder {
+                color: #000;
+            }
+        }
+    }
+
+    &__upload {
+        padding: 14px;
+        text-align: center;
+        border: 1px dashed #929292;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        color: #AFAFAF;
+        cursor: pointer;
+    }
+
+    &__btn {
+        text-transform: uppercase;
+    }
+
+    &__checkbox {
+        &-wrapper {
+            display: flex;
+            gap: 16px;
+            cursor: pointer;
+        }
+
+        &-mark {
+            position: relative;
+            min-width: 18px;
+            height: 18px;
+            border: 1px solid #AFAFAF;
+
+            &::after {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                width: 12px;
+                height: 8px;
+                background: url('../assets/img/checkbox-mark.svg') no-repeat center;
+                opacity: 0;
+                transition: opacity 0.2s;
+                content: "";
+            }
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 120%;
+        }
+
+        &:checked+.iprosoft__checkbox-mark::after {
+            opacity: 1;
+        }
+    }
+
+}

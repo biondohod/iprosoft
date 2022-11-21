@@ -1,0 +1,61 @@
+.vacancy-list {
+    max-width: 309px;
+
+    &__title {
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    &__list {
+        border-top: 1px solid #F8F8F8;
+    }
+
+    &__item {
+        position: relative;
+        padding: 16px 0;
+        border-bottom: 1px solid #F8F8F8;
+
+        a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 160%;
+            color: #000000;
+            text-decoration: none;
+        }
+
+        &--available {
+            &::after {
+                position: absolute;
+                top: 50%;
+                right: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 24px;
+                height: 24px;
+                transform: translateY(-50%);
+                border-radius: 50%;
+                background-color: #EA5B21;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 120%;
+                color: #FFFFFF;
+                content: "";
+            }
+
+            &#kirov {
+                &::after {
+                    content: "2";
+                }
+            }
+
+            &#krasnodar {
+                &::after {
+                    content: "1";
+                }
+            }
+        }
+    }
+}

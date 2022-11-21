@@ -1,0 +1,27 @@
+.vacancy {
+    &__subheader-text {
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+
+    &__first-row {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1261px;
+        margin-bottom: 120px;
+    }
+
+    &__second-row {
+        display: grid;
+        grid-template-columns: 904px 357px;
+        gap: 48px;
+        margin-bottom: 722px;
+    }
+
+    &__btns {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 309px);
+        gap: 48px;
+    }
+}

@@ -23,6 +23,7 @@
 @import './global/slider.scss';
 @import './global/bredcrumbs.scss';
 @import './global/gallery.scss';
+@import './global/iprosoft.scss';
 
 //Баннеры
 @import './components/banners/center-banner.scss';
@@ -92,3 +93,10 @@
 @import './components/files/files-license.scss';
 @import './components/files/files-search.scss';
 @import './components/files/files-doc.scss';
+
+//Вакансии
+@import './components/vacancy/vacancy.scss';
+@import './components/vacancy/vacancy-advantages.scss';
+@import './components/vacancy/vacancy-list.scss';
+@import './components/vacancy/vacancy-capabilities.scss';
+@import './components/vacancy/vacancy-banner.scss';
