@@ -1,0 +1,37 @@
+.integration-kassist {
+    position: absolute;
+    top: 533px;
+    right: 0;
+    display: flex;
+
+    &__wrapper {
+        max-width: 600px;
+    }
+
+    &__title {
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 130%;
+    }
+
+    &__descr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__decorative {
+        width: 1045px;
+        height: 400px;
+        background: url('../assets/img/integration/kassist.webp') no-repeat center;
+    }
+
+    &--individual {
+        top: 3923px;
+
+        .integration-kassist__decorative {
+            background: url('../assets/img/integration/individual.webp') no-repeat center;
+        }
+    }
+}

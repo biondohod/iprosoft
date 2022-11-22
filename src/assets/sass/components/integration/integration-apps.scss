@@ -1,0 +1,44 @@
+.integration-apps {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 88px;
+    gap: 60px;
+
+    &__title {
+        display: block;
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 309px);
+        justify-content: center;
+        column-gap: 68px;
+        row-gap: 40px;
+    }
+
+    &__item {
+        display: grid;
+        gap: 24px;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__img {
+        width: 309px;
+        min-height: 188px;
+
+        img {
+            width: 309px;
+            height: auto;
+            filter: drop-shadow(0px 16px 26px rgba(0, 0, 0, 0.07));
+        }
+    }
+}

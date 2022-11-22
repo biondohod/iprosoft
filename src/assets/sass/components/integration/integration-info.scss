@@ -1,0 +1,17 @@
+.integration-info {
+    margin-bottom: 120px;
+
+    &__title {
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, 666px);
+        column-gap: 48px;
+        row-gap: 32px;
+    }
+}

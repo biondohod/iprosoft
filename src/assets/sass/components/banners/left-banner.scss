@@ -44,6 +44,14 @@
             height: 350px;
             background: url('../assets/img/right-banner-a4.webp') no-repeat center;
         }
+
+        &--phone {
+            top: -85px;
+            right: -63px;
+            width: 354px;
+            height: 350px;
+            background: url('../assets/img/left-banner-phone.webp') no-repeat;
+        }
     }
 
     &::before {
@@ -110,6 +118,15 @@
             border-top: none;
             border-bottom: 180px solid #EA5B21;
             border-left: 106px solid transparent;
+        }
+    }
+
+    &--integration {
+        top: 3538px;
+        padding: 40px 379px;
+
+        .white2blue-btn {
+            width: 240px;
         }
     }
 }
