@@ -1,9 +1,10 @@
 .vacancy-advantages {
+    user-select: none;
     &__list {
         max-width: 782px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-
+        column-gap: 200px;
     }
 
     &__item {
@@ -36,6 +37,10 @@
             &::before {
                 content: "менее";
             }
+        }
+
+        &--gap24 {
+            gap: 24px;
         }
     }
 

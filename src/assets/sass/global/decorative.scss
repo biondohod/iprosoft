@@ -166,7 +166,7 @@
             width: 777px;
             height: 1307px;
             top: 0;
-            background: url('../assets/img/decorative.webp') right top;
+            background: url('../assets/img/decorative-left.webp') right top;
             content: "";
         }
 
@@ -218,7 +218,6 @@
             &::before {
                 width: 866px;
                 height: 1457px;
-                background-image: url('../assets/img/decorative-left.webp');
             }
         }
 

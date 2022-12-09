@@ -1,6 +1,6 @@
 .integration-lvls {
     max-width: 1380px;
-    margin-bottom: 640px;
+    margin-bottom: 120px;
 
     &__title {
         margin-bottom: 60px;
@@ -19,6 +19,12 @@
         max-width: 665px;
         display: grid;
         gap: 40px;
+    }
+
+    &__left-col {
+        .integration-lvls__list {
+            margin-top: -12px;
+        }
     }
 
     &__name {

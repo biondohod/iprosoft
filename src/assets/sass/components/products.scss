@@ -57,6 +57,7 @@
     &__img {
         position: relative;
         top: 0;
+        object-fit: cover;
         transition: top 0.4s;
     }
 

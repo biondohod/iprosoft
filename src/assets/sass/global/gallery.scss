@@ -39,5 +39,9 @@
             display: block;
             max-width: none;
         }
+
+        .slider__img {
+            object-fit: contain;
+        }
     }
 }

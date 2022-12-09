@@ -102,6 +102,12 @@
                 text-transform: uppercase;
             }
         }
+
+        &--product {
+            .left-banner__title {
+                max-width: 395px;
+            }
+        }
     }
 
     &--calc {

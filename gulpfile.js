@@ -72,9 +72,9 @@ gulp.task("copy", async () => {
     "./src/assets/fonts/**/*.{woff,woff2}",
     "./src/assets/img/**/*.svg",
     "./src/*.ico",
-    "./src/js/*.js",
-    "./src/robots.txt",
-    "./src/assets/videos/*.webm"
+    // "./src/js/*.js",
+    // "./src/robots.txt",
+    // "./src/assets/videos/*.webm"
   ], {
     base: "src"
   })
